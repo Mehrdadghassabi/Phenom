@@ -1,0 +1,58 @@
+{% extends 'users/user-panel/panel-base.html' %}
+{% load static %}
+
+{% block content %}
+
+   <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header" style="padding-bottom:25px">
+                                  <h4 class="title" dir = "rtl">اشتراک های خریداری شده</h4>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-hover table-striped" dir="rtl">
+                                      <thead style="background-color: rgb(116, 128, 235);">
+                                            <tr>
+                                              <th class="text-right" style="color:white;" >ردیف</th>
+                                              <th class="text-right" style="color:white;" >کد خرید</th>
+                                              <th  class="text-right" style="color:white;">تاریخ خرید</th>
+                                              <th class="text-right" style="color:white;">مبلغ پرداختی</th>
+                                              <th  class="text-right" style="color:white;">نوع اشتراک</th>
+                                            </tr>
+
+                                          </thead>
+                                   <tbody dir = "rtl">
+                                          {% if not purchases %}
+                                              <tr>
+                                              <td>-</td>
+                                              <td>-</td>
+                                              <td>-</td>
+                                              <td>-</td>
+                                              <td>-</td>
+                                            </tr>
+                                          {% endif %}
+                                          {% for purchase in purchases %}
+                                            <tr>
+                                              <td>{{forloop.counter}}</td>
+                                              <td>{{purchase.purchase_id}}</td>
+                                              <td>{{purchase.purchase_date_jalali}}</td>
+                                              <td>{{purchase.paid_amount}} تومان</td>
+                                              <td>{{purchase.license_days}} روزه</td>
+                                            </tr> 
+                                          {% endfor %}
+
+
+                                          </tbody>
+                                        </table>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+      
+
+
+{% endblock %}

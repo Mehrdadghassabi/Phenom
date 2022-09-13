@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+    <head>
+       <meta charset="utf-8">
+
+       <style> 
+        @font-face {
+           font-family: myFirstFont;
+           src: url("{% static 'phenom_app/fonts/IRANSansWeb.woff' %}");
+        }
+        
+        * {
+           font-family: myFirstFont;
+        }
+    </style>
+    
+    
+    </head>
+    <body>
+        <div style="direction:rtl;text-align:right;">
+            <h3> کاربر عزیز ، سلام </h3>
+            <p >لطفا روی لینک زیر کلیک نمایید تا ثبت نام شما در فنوم نهایی شود :</p>
+            <a href="https://{{ domain }}{% url 'activate' uidb64=uid token=token %}">تایید ثبت نام</a>
+        </div>
+    </body>
+</html>
