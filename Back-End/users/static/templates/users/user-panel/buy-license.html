@@ -1,0 +1,76 @@
+{% extends 'users/user-panel/panel-base.html' %}
+{% load static %}
+
+{% block content %}
+
+<link rel="icon" type="image/png" href="{% static 'phenom_app/doc-page/assets/img/favicon.ico' %}">
+                    <div class="col-md-12">
+                        <div class="card card-plain">
+                            <div class="header">
+                      
+                         
+                        
+                      
+                        
+                     
+                         
+                           <div style="  background-color: #000035; 
+                                      color: white;
+                                       padding: 10px;
+                                  text-align: center;
+                                  margin: 10px;">
+                                                    <h2>اشتراک 30 روزه</h2>
+                                                    <p class="text-primary">60 هزار تومان</p>
+                                                    <p class="text-primary"><a href="{% url 'payment-request' plan_id=1 %}">خرید</a></p>
+                                                </div>
+                                                
+                                                 
+                         
+                           <div style="  background-color: #000035; 
+                                      color: white;
+                                       padding: 10px;
+                                  text-align: center;
+                                  margin: 10px;">
+                                                    <h2>اشتراک 90 روزه</h2>
+                                                    <p class="text-primary">90 هزار تومان</p>
+                                                    <p  class="text-primary"><a href="{% url 'payment-request' plan_id=1 %}">خرید</a></p>
+                                                </div>
+                                                
+                                                 
+                         
+                                                
+                                                 
+                         
+                           <div style="  background-color: #000035; 
+                                      color: white;
+                                       padding: 10px;
+                                  text-align: center;
+                                  margin: 10px;">
+                                                    <h2>اشتراک 180 روزه</h2>
+                                                    <p class="text-primary">150 هزار تومان</p>
+                                                    <p class="text-primary"><a href="{% url 'payment-request' plan_id=1 %}">خرید</a></p>
+                                                </div>
+                                                
+                                 
+                         
+                         
+               
+                         
+                              
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                         
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <br>
+                        <br>
+                      
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
