@@ -1,0 +1,26 @@
+{
+	"SECRET_KEY" : "??????????",
+	"EMAIL_HOST_USER" : "app.phenom@gmail.com",
+	"EMAIL_HOST_PASSWORD" : "??????",
+    "MERCHANT" : "?????????????",
+    "zarinpal_web_gate" : "https://www.zarinpal.com/pg/services/WebGate/wsdl",
+    "plans" : {
+        "plan1" : {
+            "days" : 30,
+            "amount" : 1000
+        },
+        "plan2" : {
+            "days" : 90,
+            "amount" : 3000
+        },
+        "plan3" : {
+            "days" : 180,
+            "amount" : 5000
+        },
+        "plan4" : {
+            "days" : 365,
+            "amount" : 10000
+        }
+    },
+    "callback_URL" : "http://localhost:8000/verify/"
+}

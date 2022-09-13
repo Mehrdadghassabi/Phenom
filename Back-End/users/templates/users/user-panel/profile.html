@@ -1,0 +1,94 @@
+{% extends 'users/user-panel/panel-base.html' %}
+{% load static %}
+
+{% block content %}
+
+        <div class="content" >
+            <div class="container-fluid" >
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="header" align="right">
+                                <h4 class="title" >ویرایش پروفایل</h4>
+                            </div>
+                            <div class="content" >
+                                <form method="POST" >
+                                    {% csrf_token %}
+                                    <div class="row">
+                                     
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>نام کاربری</label>
+                                                <input name="username" id="id_username" type="text" required class="form-control" value="{{ username }}" >
+                                                <small style="color:Red;" dir="rtl">{{ u_form.username.errors }}</small>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">آدرس ایمیل</label>
+                                                <input name = "email" id="id_email" type="email" required class="form-control" value="{{ email }}" >
+                                                <small style="color:Red;" dir="rtl">{{ u_form.email.errors }}</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>نام و نام خانوادگی</label>
+                                                <input name="first_name" id="id_first_name" type="text" required class="form-control" value="{{full_name}}" >
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                       <a href="{% url 'change-pass' %}">یک پسورد جدید تنظیم کنید</a>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-info btn-fill pull-right">ویرایش پروفایل</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+
+                            {% if messages %}
+                                {% for message in messages %}
+                                    <div id="alertbox" class="my-3 alert alert-success" dir="rtl"><strong>{{ message }}</strong></div>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-user">
+                            <div class="image">
+                                <img src="{% static 'phenom_app/dashboard/assets/img/header-img2.jpg' %}" alt="..."/>
+                            </div>
+                            <div class="content">
+                                <div class="author">
+                                     <a href="#">
+                                    <img class="avatar border-gray" src="{% static 'phenom_app/dashboard/assets/img/faces/userlogo.png' %}" alt="..."/>
+
+                                      <h4 class="title">{{ full_name }}<br />
+                                         <small>{{ username }}</small>
+                                      </h4>
+                                    </a>
+                                </div>
+                                <p class="description text-center">{{ email }}</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+{% endblock %}
