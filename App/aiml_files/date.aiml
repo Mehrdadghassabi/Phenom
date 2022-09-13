@@ -1,0 +1,28 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>WHAT TIME IS IT</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>date "+%H:%M:%S"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW THE DATE</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>date "+%H:%M:%S %d/%m/%y"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE DATE</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>date "+%d/%m/%y"</system>
+        </template>
+    </category>
+
+
+</aiml>

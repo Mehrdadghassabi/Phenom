@@ -1,0 +1,131 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>SHOW COVID-19 STATISTICS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW COVID-19 STATUS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COVID-19 STATISTICS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COVID-19 STATUS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW CORONAVIRUS STATISTICS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW CORONAVIRUS STATUS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CORONAVIRUS STATISTICS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CORONAVIRUS STATUS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW * COVID-19 STATISTICS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW * COVID-19 STATUS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COVID-19 STATISTICS OF *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COVID-19 STATUS OF *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW * CORONAVIRUS STATISTICS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW * CORONAVIRUS STATUS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CORONAVIRUS STATISTICS OF *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CORONAVIRUS STATUS OF *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+</aiml>

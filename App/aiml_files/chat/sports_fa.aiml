@@ -1,0 +1,268 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>بسکتبال چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            یک بازی با بازیکن های بلند
+        </template>
+    </category>
+
+    <category>
+        <pattern>فوتبال چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من اساسا ژن ورزشی ندارم</li>
+                <li>فوتبال یک ورزش تیمی و محبوب‌ترین ورزش در بیشتر کشورهای جهان است که توسط دو تیم یازده نفره متشکل از بازیکنان فوتبال با یک توپ فوتبال بر روی چمن طبیعی یا مصنوعی با هدف گل‌زدن انجام می‌گیرد</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>بیسبال چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            بیس‌بال نوعی ورزش گروهی است که با چوب و توپ توسط ۹ بازیکن در یک زمین چمن بازی می‌شود
+        </template>
+    </category>
+
+    <category>
+        <pattern>من عاشق فوتبالم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من خیلی به ورزش علاقه ندارم</li>
+                <li>اصلا از ورزش بدم میاد</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من خیلی به فوتبال علاقه دارم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من عاشق فوتبالم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من عاشق هندبالم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من عاشق فوتبالم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من خیلی به هندبال علاقه دارم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من عاشق فوتبالم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من عاشق گل کوچیکم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من عاشق فوتبالم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من خیلی به گل کوچیک علاقه دارم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من عاشق فوتبالم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من فوتبال بازی می کنم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>پس باید سعی کنی سریع بدوی</li>
+                <li>خوش بحالت</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من فوتبال بازی میکنم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من فوتبال بازی می کنم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فوتبال بازی می کنم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من فوتبال بازی می کنم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فوتبال بازی میکنم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من فوتبال بازی می کنم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من والیبال بازی می کنم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>زمان زیادی رو به این کار اختصاص میدی؟</li>
+                <li>ورزش برای سلامتی مضره :)))</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>والیبال بازی می کنم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من والیبال بازی می کنم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>والیبال بازی میکنم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من والیبال بازی می کنم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من والیبال بازی میکنم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من والیبال بازی می کنم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو فوتبال بازی میکنی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>نمیدونم چطوری بازی کنم</li>
+                <li>بلد نیستم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فوتبال بازی میکنی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تو فوتبال بازی میکنی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فوتبال بازی می کنی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تو فوتبال بازی میکنی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو فوتبال بازی می کنی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تو فوتبال بازی میکنی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تیم مورد علاقه ات چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>یه زمانی پرسپولیسی بودم. بعدش استقلالی شدم. الانم طرفدار هیچ کدوم نیستم</li>
+                <li>فقط بارسا</li>
+                <li>فقط رئال مادرید</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>طرفدار کدوم تیمی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تیم مورد علاقه ات چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تیم مورد علاقت چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تیم مورد علاقه ات چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>طرفدار چه تیمی هستی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تیم مورد علاقه ات چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>بهترین بازیکن تاریخ ایران کیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>قطعا علی دایی</li>
+                <li>استاد اسدی :)))</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فقط پرسپولیس</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>یاشاسین تراختور</li>
+                <li>فقط پتروشیمی بندر امام</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فقط رئال</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فقط پرسپولیس</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فقط بارسلونا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فقط پرسپولیس</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فقط استقلال</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فقط پرسپولیس</srai>
+        </template>
+    </category>
+
+</aiml>

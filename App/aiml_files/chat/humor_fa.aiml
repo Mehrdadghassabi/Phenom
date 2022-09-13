@@ -1,0 +1,202 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>یه جوک بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>برو تویتر فارسی رو چک کن پر چیزای خنده دار هستش، پاره میشی از خنده</li>
+                <li>ﺣﻮﺻﻠﻢ ﺳﺮ ﺭﻓﺘﻪ ﺑﻮﺩ ﺯﻧﮓ ﺯﺩﻡ ۱۱۸ ﮔﻔﺘﻢ :ﺷﻤﺎﺭﻩ ﺍﺩﯾﺴﻮﻥ ﺭﻭ ﻟﻄﻒﮐﻨﯿد ﺍﻭﻧﻢ ﯾﻪ ﺷﻤﺎﺭﻩ ﺩﺍﺩ ﺁﻗﺎ ﻣﺎ ﻫﻢ ﺯﻧﮕﯿﺪﯾﻢ ﯾﮑﯽ ﻭﺭ ﺩﺍﺷﺖ ﮔﻔﺖ ﺗﯿﻤﺎﺭﺳﺘﺎﻥﻓﺎﺭﺍﺑﯽ ﺑﻔﺮﻣﺎﯾﯿﺪ؟</li>
+                <li>این چینیا واقعا زبون همدیگرو میفهمن یا جلو بقیه آبرو داری میکنن؟!</li>
+                <li>شما یادتون نمیاد خودمم یادم نمیاد مال خیلی وقت پیشه ! بعله</li>
+                <li>یه روز یه ربات دیدم، یه روز ندیدمش :))</li>
+                <li>به این مونالیزا بگید اگه چیزی هست بگه ماهم بخندیم:|</li>
+                <li>اونایی که روزه سکوت میخان بگیرن ، سحر بیدار میشن سر و صدا میکنن !؟</li>
+                <li>بچه > مامان! شاهزاده رویاها با اسب سفید یعنی چی؟  مامان > یعنی یه خری مثل بابات</li>
+                <li>کلمه مادر و زن هر دو کلمه مقدسی هستند .ولی پناه بر خدا از موقعی که این دو کلمه یکجا تلفظ شود</li>
+                <li>رفتم پرنده فروشی گفتم این عروس هلندی چنده؟ گفت ۲۵۰ تومن .  گفتم جهازم داره دیگه؟  با عقاب تو مغازه‌ش افتادن دنبالم بیشورا</li>
+                <li>مادرم فکر کرده کاکتوس سالی یک استکان بیشتر آب نمی‌خواد... امروز کاکتوسه گفت داداش یک لحظه بیا، اینجا کربلاس؟  یک لیوان آب بیار مُردیم از تشنگی کولرم که بابات خاموش کرده</li>
+                <li>یکی از رموز ماندگاریه دوستی ها اینه که هر کسی دُنگ خودش رو بده !</li>
+                <li>چرا روی آدرس اینترنت به جای یك دبیلیو، سه تا دبیلیو می‌گذارند؟ چون كار از محكم‌كاری عیب نمی‌كنه</li>
+                <li>آخرین دندانی كه در دهان دیده می‌شود چه نام دارد؟ دندان مصنوعی</li>
+                <li>چطور می‌شود چهارنفر زیر یك چتر بایستند و خیس نشوند؟ وقتی هوا آفتابی باشد این كار را انجام دهند</li>
+                <li>اگر سر پرگار گیج برود چه می‌كشد؟ بیضی</li>
+                <li>چرا لك‌لك موقع خواب یك پایش را بالا می‌گیرد؟ چون اگر هر دو را بگیرد، می‌افتد</li>
+                <li>چرا دود از دودكش بالا می‌رود؟ چون ظاهرا چاره دیگری ندارد</li>
+                <li>شباهت نون سوخته با آدم غرق شده چیه؟ هر دو تاشونو دیر كشیدن بیرون</li>
+                <li>فرق باطری با مرد چیست؟ باطری اقلا یک قطب مثبت داره ولی مرد هیچ چیز مثبتی نداره</li>
+                <li>چه طوری زیر دریایی بعضیها رو غرق می‌کنن؟ یه غواص میره در می‌زنه</li>
+                <li>ناف یعنی چه؟ ناف نمره صفری است كه طبیعت به شكم بی‌هنر داده است</li>
+                <li>خط وسط قرص برای چیه؟ برای اینكه اگه با آب نرفت پایین با پیچ‌گوشتی بره</li>
+                <li>اگه یه نقطه آبی روی دیوار دیدید كه حركت می‌كند چیست؟ مورچه‌ای است كه شلوارلی پوشیده</li>
+                <li>بعضی ها را چگونه برای همیشه می‌شود سر كار گذاشت؟ در دو روی یك كاغذ می‌نویسم «لطفاً بچرخانید»</li>
+                <li>چرا بعضیها همیشه 18تایی به سینما می‌روند؟ چون برای زیر 18 ممنوع بود</li>
+                <li>چرا بعضیها با دو دستشان دست می‌دهند؟ چون فرق دست راست و چپشون رو بلد نیستن</li>
+                <li>چرا فیل از «سوراخ سوزن» رد نمیشه؟ برای اینكه ته دمش “گره” داره</li>
+                <li>این واقعیت داره که فرهنگستان زبان فارسی اعلام کرده به جای واژه ی "تبلت" از واژه ی "رایانک مالشی" استفاده کنید؟؟؟؟؟:| فکککککککککککککک کن!!!!!!!!رایانکتو بده یه دیقه بمالم :))</li>
+                <li>اگه یه پولدار رو مسخره کنی عمرا پولدار نمیشی ولی فقط کافیه به یه کچل لبخند بزنی ! </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه جوک باحال بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه لطیفه باحال بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>جوک بلدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>لطیفه بلدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه جوک تعریف کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>لطیفه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>جوک</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه لطیفه بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه لطیفه تعریف کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه چیز خنده دار بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه جوک خنده دار تعریف کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه لطیفه خنده دار تعریف کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه چی بگو بخندیم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه جوک بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>جوک یعنی چی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لطیفه(جوک) معمولاً حکایتی کوتاه است که برای خنداندن دیگران گفته می‌شود
+        </template>
+    </category>
+
+    <category>
+        <pattern>لطیفه یعنی چی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لطیفه(جوک) معمولاً حکایتی کوتاه است که برای خنداندن دیگران گفته می‌شود
+        </template>
+    </category>
+
+    <category>
+        <pattern>شوخی یعنی چی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لطیفه(جوک) معمولاً حکایتی کوتاه است که برای خنداندن دیگران گفته می‌شود
+        </template>
+    </category>
+
+    <category>
+        <pattern>معنی جوک چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لطیفه(جوک) معمولاً حکایتی کوتاه است که برای خنداندن دیگران گفته می‌شود
+        </template>
+    </category>
+
+    <category>
+        <pattern>معنی لطیفه چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لطیفه(جوک) معمولاً حکایتی کوتاه است که برای خنداندن دیگران گفته می‌شود
+        </template>
+    </category>
+
+    <category>
+        <pattern>اصلا لطیفه چی هست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لطیفه(جوک) معمولاً حکایتی کوتاه است که برای خنداندن دیگران گفته می‌شود
+        </template>
+    </category>
+
+    <category>
+        <pattern>اصلا جوک چی هست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لطیفه(جوک) معمولاً حکایتی کوتاه است که برای خنداندن دیگران گفته می‌شود
+        </template>
+    </category>
+
+</aiml>

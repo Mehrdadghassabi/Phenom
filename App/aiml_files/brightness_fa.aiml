@@ -1,0 +1,56 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>تغییر روشنایی به * درصد</pattern>
+         <template>
+<<<<<<< HEAD
+            <think><system>brightnessctl s <map name="persiannumbers"><star/></map></system></think>
+            روشنایی به <star/> % تغییر یافت
+=======
+            <think><system>brightnessctl s <map name="persiannumbers"><star/></map>%</system></think>
+            روشنایی به <star/> درصد تغییر یافت
+>>>>>>> ca8294f... fix some bugs
+         </template>
+    </category>
+
+    <category>
+        <pattern>تنظیم روشنایی به * درصد</pattern>
+         <template>
+<<<<<<< HEAD
+            <think><system>brightnessctl s <map name="persiannumbers"><star/></map></system></think>
+            روشنایی به <star/> % تغییر یافت
+=======
+            <think><system>brightnessctl s <map name="persiannumbers"><star/></map>%</system></think>
+            روشنایی به <star/> درصد تغییر یافت
+>>>>>>> ca8294f... fix some bugs
+         </template>
+    </category>
+
+    <category>
+        <pattern>افزایش روشنایی * درصد</pattern>
+         <template>
+<<<<<<< HEAD
+            <think><system>brightnessctl s <denormalize><map name="persiannumbers"><star/></map> PERCENT PLUS</denormalize></system></think>
+            روشنایی <star/> % افزایش یافت
+=======
+            <think><system>brightnessctl s +<map name="persiannumbers"><star/></map>%</system></think>
+            روشنایی <star/> درصد افزایش یافت
+>>>>>>> ca8294f... fix some bugs
+         </template>
+    </category>
+
+    <category>
+        <pattern>کاهش روشنایی * درصد</pattern>
+         <template>
+<<<<<<< HEAD
+            <think><system>brightnessctl s <denormalize><denormalize><map name="persiannumbers"><star/></map> PERCENT</denormalize> DASH </denormalize></system></think>
+            روشنایی <star/> % کاهش یافت
+=======
+            <think><system>brightnessctl s <map name="persiannumbers"><star/></map>%-</system></think>
+            روشنایی <star/> درصد کاهش یافت
+>>>>>>> ca8294f... fix some bugs
+         </template>
+    </category>
+
+
+</aiml>

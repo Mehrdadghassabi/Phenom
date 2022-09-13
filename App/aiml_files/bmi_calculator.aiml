@@ -1,0 +1,31 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern># CALCULATE MY BMI</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Enter your height in centimeters
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>ENTER YOUR HEIGHT IN CENTIMETERS</that>
+<template>
+<think><set name="language">english</set></think>
+            <think><set name="height"><star/></set></think>
+            Enter your weight in kilograms
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>ENTER YOUR WEIGHT IN KILOGRAMS</that>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 bmi_calculator.py <get name="height"></get> <star/> en</system>
+        </template>
+    </category>
+
+</aiml>

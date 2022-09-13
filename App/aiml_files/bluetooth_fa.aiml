@@ -1,0 +1,59 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+	 <category>
+        <pattern>بلوتوث را روشن کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>rfkill unblock bluetooth</system>
+            بلوتوث روشن است
+        </template>
+    </category>
+
+    <category>
+        <pattern>بلوتوث رو روشن کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>rfkill unblock bluetooth</system>
+            بلوتوث روشن است
+        </template>
+    </category>
+
+    <category>
+        <pattern>بلوتوث روشن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>rfkill unblock bluetooth</system>
+            بلوتوث روشن است
+        </template>
+    </category>
+
+	<category>
+        <pattern>بلوتوث را خاموش کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>rfkill block bluetooth</system>
+            بلوتوث خاموش است
+        </template>
+    </category>
+
+    <category>
+        <pattern>بلوتوث رو خاموش کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>rfkill block bluetooth</system>
+            بلوتوث خاموش است
+        </template>
+    </category>
+
+    <category>
+        <pattern>بلوتوث خاموش</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>rfkill block bluetooth</system>
+            بلوتوث خاموش است
+        </template>
+    </category>
+
+
+</aiml>

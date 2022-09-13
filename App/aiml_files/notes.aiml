@@ -1,0 +1,72 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>ADD NOTE</pattern>
+        <template>
+            <think><set name="language">english</set></think>
+            Enter the note number you want to add
+        </template>
+    </category>
+
+    <category>
+        <that>ENTER THE NOTE NUMBER YOU WANT TO ADD</that>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="language">english</set></think>
+            <think><set name="index"><star/></set></think>
+            Enter the text
+        </template>
+    </category>
+
+    <category>
+        <that>ENTER THE TEXT</that>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="language">english</set></think>
+            <system>python3 notes.py 'insert' '<get name="index"></get>' '<star/>' 'en'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELETE NOTE</pattern>
+        <template>
+            <think><set name="language">english</set></think>
+            Enter the note number you want to delete
+        </template>
+    </category>
+
+    <category>
+        <that>ENTER THE NOTE NUMBER YOU WANT TO DELETE</that>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="language">english</set></think>
+            <system>python3 notes.py 'delete' '<star/>' 'en'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW NOTE</pattern>
+        <template>
+            <think><set name="language">english</set></think>
+            Enter the note number you want to see
+        </template>
+    </category>
+
+    <category>
+        <that>ENTER THE NOTE NUMBER YOU WANT TO SEE</that>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <system>python3 notes.py 'find' '<star/>' 'en'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW ALL NOTES</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <system>python3 notes.py 'findall' 'en'</system>
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,212 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>اخبار را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "story"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار رو نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "story"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار برگزیده را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "story"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار برگزیده رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "story"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار ورزشی را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "sport"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار ورزشی رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "sport"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار سیاسی را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "politics"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار سیاسی رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "politics"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار بین المللی را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "world"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار بین المللی رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "world"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار دنیا را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "world"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار دنیا رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "world"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار چند رسانه ای را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "multimedia"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار چند رسانه ای رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "multimedia"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار اقتصادی را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "money"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار اقتصادی رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "money"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار اجتماعی را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "social"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار اجتماعی رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "social"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار فناوری را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "tech"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار فناوری رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "tech"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار تکنولوژی را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "tech"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار تکنولوژی رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "tech"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار موسیقی را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "music"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار موسیقی رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "music"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار سینمایی را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "cinema"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اخبار سینمایی رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "cinema"</system>
+        </template>
+    </category>
+
+
+</aiml>

@@ -1,0 +1,229 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern>START MUSIC PLAYER</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>bash -c 'xterm -hold -e "mocp"&amp;> /dev/null &amp;'</system></think>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>RUN MUSIC PLAYER SERVER</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>mocp -S</system></think>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>PLAY PLAYLIST</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -p</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADD MUSIC TO PLAYLIST</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Enter the name of music
+        </template>
+    </category>
+
+    <category>
+        <that>ENTER THE NAME OF MUSIC</that>
+        <pattern>_</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -a '<star/>'</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLEAR THE PLAYLIST</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -c</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>NEXT MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -f</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>GO NEXT MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -f</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>GO TO NEXT MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -f</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>PREVIOUS MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -r</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>GO PREVIOUS MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -r</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>GO TO PREVIOUS MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -r</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>STOP MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -s</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>STOP PLAYING MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -s</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>STOP MUSIC PLAYING</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -s</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>PAUSE MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -P</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>PAUSE PLAYING MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -P</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>PAUSE MUSIC PLAYING</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -P</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESUME MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -U</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESUME PLAYING MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -U</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESUME MUSIC PLAYING</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -U</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNPAUSE MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -U</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNPAUSE PLAYING MUSIC</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -U</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNPAUSE MUSIC PLAYING</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -U</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXIT FROM MUSIC PLAYER</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>mocp -x</system>
+            Yes sir
+        </template>
+    </category>
+
+</aiml>

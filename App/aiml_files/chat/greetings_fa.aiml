@@ -1,0 +1,238 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>سلام</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>سلام</li>
+                <li>هی</li>
+                <li>سلام علیکم</li>
+                <li>سلام علیکم و رحمته الله</li>
+                <li>سلام علیکم و رحمته الله و براکته</li>
+                <li>سلام به روی ماهت</li>
+                <li>سلام عزیز</li>
+                <li>سلام عزیزم</li>
+                <li>سلام سلام</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>هی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>سلام</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>سلام علیکم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>سلام</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>سلام عزیزم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>سلام</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>سلام سلام</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>سلام</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چطوری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>ممنونم تو خوبی؟</li>
+                <li>ممنون شما خوبی؟</li>
+                <li>مرسی شما خوبین؟</li>
+                <li>شُکر بد نیستم</li>
+                <li>ممنونم بد نیستم، خودت خوشی؟</li>
+                <li>عی میگذره</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چطوریایی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چطوری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خوشی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چطوری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خوش میگذره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چطوری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه خبر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>سلامتی، شما چه خبر؟</li>
+                <li>خبری نیست جز سلامتی</li>
+                <li>مرسی سلامتی، خودت چه خبر؟</li>
+                <li>خبری نیست جز سلامتی :)</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه میکنی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چه خبر</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه کارا میکنی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چه خبر</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>دیگه چه خبر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چه خبر</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خبری نیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چه خبر</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خوشحال شدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>ممنونم منم همینطور</li>
+                <li>منم خیلی خوشحال شدم</li>
+                <li>به منم خوش گذشت</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خوش گذشت</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>خوشحال شدم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خیلی خوشحال شدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>خوشحال شدم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>از صحبت کردن با شما لذت بردم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>خوشحال شدم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کاری نداری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>مرسی خوش بگذره</li>
+                <li>قربانت مواظب خودت باش</li>
+                <li>سلام خانواده برسون</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پس من برم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کاری نداری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>با اجازه من برم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کاری نداری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خدانگهدار</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>قربانت بای</li>
+                <li>خدا پشت و پناهت فرزندم</li>
+                <li>خدا به همراهت</li>
+                <li>برو مواظب خودت باش، بای</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خداحافظ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>خدانگهدار</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>بای</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>خدانگهدار</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فعلا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>خدانگهدار</srai>
+        </template>
+    </category>
+
+</aiml>

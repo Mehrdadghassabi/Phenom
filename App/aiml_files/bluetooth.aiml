@@ -1,0 +1,41 @@
+<aiml version="2.0" encoding="UTF-8">
+	
+
+	 <category>
+        <pattern>TURN ON BLUETOOTH</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>rfkill unblock bluetooth</system>
+            bluetooth is on
+        </template>
+    </category>
+
+    <category>
+        <pattern>ON BLUETOOTH</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>rfkill unblock bluetooth</system>
+            bluetooth is on
+        </template>
+    </category>
+	
+	<category>
+        <pattern>TURN OFF BLUETOOTH</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>rfkill block bluetooth</system>
+            bluetooth is off
+        </template>
+    </category>
+
+    <category>
+        <pattern>OFF BLUETOOTH</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>rfkill block bluetooth</system>
+            bluetooth is off
+        </template>
+    </category>
+    
+
+</aiml>

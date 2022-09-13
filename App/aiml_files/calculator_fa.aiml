@@ -1,0 +1,37 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>محاسبه معادله *</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>gnome-calculator --solve='<denormalize><star/></denormalize>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>محاسبه معادله</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            معادله را تایپ کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>ماشین حساب</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            معادله را تایپ کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>معادله را تایپ کنید</that>
+<template>
+<think><set name="language">persian</set></think>
+            <system>gnome-calculator --solve='<denormalize><star/></denormalize>'</system>
+        </template>
+    </category>
+
+
+</aiml>

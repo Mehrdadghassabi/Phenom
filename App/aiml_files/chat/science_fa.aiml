@@ -1,0 +1,372 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>قوانین ترمودینامیک رو تعریف کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من فیزیکدان نیستم، منتهی فکر کنم درباره گرما و این چیزا باشه، درسته؟</li>
+                <li>شاخه‌ای از علوم طبیعی است که به بحث راجع به گرما و نسبت آن با انرژی و کار می‌پردازد</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>قوانین ترمودینامیک رو بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>قوانین ترمودینامیک رو تعریف کن</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>قوانین ترمودینامیک رو نام ببر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>قوانین ترمودینامیک رو تعریف کن</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ترمودینامیک چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>قوانین ترمودینامیک رو تعریف کن</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>میدونی ترمودینامیک چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>قوانین ترمودینامیک رو تعریف کن</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کارسینوژن باعث چه بیماری ای میشه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            سرطان
+        </template>
+    </category>
+
+    <category>
+        <pattern>طول موج چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>طول موج برعکس فرکانسه</li>
+                <li>طول موج به فاصله بین دو قله متوالی موج (یا بین هر دو نقطه تکراری موج که شکل یکسان دارند) گفته می‌شود</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>طول موج چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>طول موج چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شیمی چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>علم ترکیب مواد شیمیایی</li>
+                <li>شیمی یکی از دانش‌های بنیادین است که به مطالعه و بررسی ساختار، خواص، ترکیبات، و دگرگونی ماده می‌پردازد</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شیمی چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>شیمی چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کریستالوگرافی چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دانشی است که به قوانین حاکم بر حالت بلورین مواد جامد، آرایش اتمی/مولکولی بلورها، خواص فیزیکی و شیمیایی و ساخت، رشد و شناسایی بلورها می‌پردازد
+        </template>
+    </category>
+
+    <category>
+        <pattern>بلورنگاری چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دانشی است که به قوانین حاکم بر حالت بلورین مواد جامد، آرایش اتمی/مولکولی بلورها، خواص فیزیکی و شیمیایی و ساخت، رشد و شناسایی بلورها می‌پردازد
+        </template>
+    </category>
+
+    <category>
+        <pattern>بلورشناسی چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دانشی است که به قوانین حاکم بر حالت بلورین مواد جامد، آرایش اتمی/مولکولی بلورها، خواص فیزیکی و شیمیایی و ساخت، رشد و شناسایی بلورها می‌پردازد
+        </template>
+    </category>
+
+    <category>
+        <pattern>عدد آووگادرو چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>عدد آووگادرو یا ثابت آووگادرو، نامیده شده به اسم شیمیدان ایتالیایی آمادئو آووگادرو، بر طبق تعریف به تعداد اتمهای ۱۲ گرم کربن، با ایزوتوپ ۱۲ کربن گفته می‌شود</li>
+                <li>اگر به تعداد عدد آووگادرو سکه ۵۰۰ ریالی را روی همدیگر قرار دهیم، طول آن به انتهای کهکشان راه شیری خواهد رسید!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آووگادرو چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>عدد آووگادرو چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آووگادرو چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>عدد آووگادرو چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فرا صوت چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            فراصوت یا اولتراساوند، به امواج صوتی گفته می‌شود که دارای بسامدی بیشتر از بازه بسامدی شنوایی انسان هستند
+        </template>
+    </category>
+
+    <category>
+        <pattern>اولتراساوند چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            فراصوت یا اولتراساوند، به امواج صوتی گفته می‌شود که دارای بسامدی بیشتر از بازه بسامدی شنوایی انسان هستند
+        </template>
+    </category>
+
+    <category>
+        <pattern>بیوانفورماتیک چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            زیست‌داده‌ورزی یا بیوانفورماتیک دانش استفاده از علوم کامپیوتر و آمار و احتمالات در شاخه زیست‌شناسی مولکولی است
+        </template>
+    </category>
+
+    <category>
+        <pattern>زیست داده ورزی چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            زیست‌داده‌ورزی یا بیوانفورماتیک دانش استفاده از علوم کامپیوتر و آمار و احتمالات در شاخه زیست‌شناسی مولکولی است
+        </template>
+    </category>
+
+    <category>
+        <pattern>ونوس چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ونوس، یا نئوس در اسطوره‌های رومی، ایزدبانوی عشق و زیبایی و بارآوری است. برابر آن در اسطوره‌های یونان آفرودیت است
+        </template>
+    </category>
+
+    <category>
+        <pattern>نئوس چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ونوس، یا نئوس در اسطوره‌های رومی، ایزدبانوی عشق و زیبایی و بارآوری است. برابر آن در اسطوره‌های یونان آفرودیت است
+        </template>
+    </category>
+
+    <category>
+        <pattern>آبزی شناسی چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            آبزی‌شناسی شاخه‌ای از جانورشناسی است که به پژوهش بر روی آبزیان می‌پردازد
+        </template>
+    </category>
+
+    <category>
+        <pattern>H2O چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>فرمول آب آشامیدنیه</li>
+                <li>فکر کنم فرمول شیمیای آب باشه. درسته؟ شایدم منظورت چیز دیگه ای هست؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>باکتری شناسی چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            باکتری‌شناسی زیرشاخه‌ای از دانش میکروب‌شناسی است که به مطالعهٔ شکل، ساختمان، دگرگشت و فیزیولوژی باکتری‌ها و همچنین رابطهٔ آن‌ها با انسان، جانوران و مواد بیجان طبیعت می‌پردازد
+        </template>
+    </category>
+
+    <category>
+        <pattern>نیروی گرانش چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نیروی گرانش اندازه‌گیری شتاب سقوط اجسام بر اثر وزن است
+        </template>
+    </category>
+
+    <category>
+        <pattern>گرانش چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نیروی گرانش اندازه‌گیری شتاب سقوط اجسام بر اثر وزن است
+        </template>
+    </category>
+
+    <category>
+        <pattern>ما روی یک موجیم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            و همچنین روی یک فرکانس :)
+        </template>
+    </category>
+
+    <category>
+        <pattern>ما روی یک طول موجیم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            و همچنین روی یک فرکانس :)
+        </template>
+    </category>
+
+    <category>
+        <pattern>خورشید چقدر دوره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>خیلی زیاده</li>
+                <li>تقریبا ۱۵۰ میلیون کیلومتر</li>
+                <li>تا حالا متر نکردم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فاصله زمین تا خورشید چقدره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>خورشید چقدر دوره</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ماه چقدر دوره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>فاصلش زیاده</li>
+                <li>دفعه بعدی که دارم میرم متر می کنم برات</li>
+                <li>یه چیزی حدود ۴۰۰ هزار کیلومتر</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فاصله زمین تا ماه چقدره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ماه چقدر دوره</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شیمی بلدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>شیمی چیه؟</li>
+                <li>نه فقط تو بلدی</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شیمی میدونی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>شیمی بلدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شیمی میفهمی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>شیمی بلدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ترمودینامیک بلدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>خیلی علاقه ندارم</li>
+                <li>از شیمی متنفرم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ترمودینامیک میفهمی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ترمودینامیک بلدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شیمی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            از شیمی متنفرم
+        </template>
+    </category>
+
+    <category>
+        <pattern>طول موج یکسان</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            پس یعنی با هم موافقیم
+        </template>
+    </category>
+
+    <category>
+        <pattern>درباره ونوس بهم بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>ونوس چیه دیگه، خوردنیه؟</li>
+                <li>ونوس کیه؟</li>
+                <li>ونوس دومین سیاره منظومه شمسیه</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>از ونوس بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>درباره ونوس بهم بگو</srai>
+        </template>
+    </category>
+
+</aiml>

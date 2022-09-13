@@ -1,0 +1,120 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+
+    <category>
+        <pattern># $SET $ALARM</pattern>
+<template>
+<think><set name="language">english</set></think>
+            when
+        </template>
+    </category>
+
+    <category>
+        <pattern>$SET $ALARM *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            when
+        </template>
+    </category>
+
+    <category>
+        <pattern>$at * * $O $CLOCK</pattern>
+        <that>WHEN</that>
+        <template>
+            <think><set name="language">english</set></think>
+            <think>
+                <system>
+                    echo 'play /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga' | at <implode><star index="1" />:<star index="2" /></implode>
+                </system>
+            </think>
+            Alarm set to <implode><star index="1" />:<star index="2" /></implode>
+        </template>
+    </category>
+
+    <category>
+        <pattern>$at * *</pattern>
+        <that>WHEN</that>
+        <template>
+            <think><set name="language">english</set></think>
+            <think>
+                <system>
+                    echo 'play /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga' | at <implode><star index="1" />:<star index="2" /></implode>
+                </system>
+            </think>
+            Alarm set to <implode><star index="1" />:<star index="2" /></implode>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WAKE ME UP $AT * *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think>
+                <system>
+                    echo 'play /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga' | at <implode><star index="1" />:<star index="2" /></implode>
+                </system>
+            </think>
+            Alarm set to <implode><star index="1" />:<star index="2" /></implode>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WAKE ME UP</pattern>
+<template>
+<think><set name="language">english</set></think>
+            WHEN
+        </template>
+    </category>
+
+    <category>
+        <pattern>WAKE ME UP $TOMORROW AT * *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think>
+                <system>
+                    echo 'play /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga' | at <implode><star index="1" />:<star index="2" /></implode> tomorrow
+                </system>
+            </think>
+            Alarm set to <implode><star index="1" />:<star index="2" /></implode> tomorrow
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALARM LIST</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <splitnewline><system>python3 extensions/alarm/alarm_list.py</system></splitnewline>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALARM DELETE *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 extensions/alarm/alarm_delete.py '<star/>'</system>
+        </template>
+    </category>
+    <!-- <category>
+        <pattern>STOP IT #</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                <system>python3 alarm.py '<star/>'</system>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <patter>ALARM STOP ERR</patter>
+<template>
+<think><set name="language">english</set></think>
+    </category>
+
+    <category>
+        <patter>ALARM STOP OK</patter>
+<template>
+<think><set name="language">english</set></think>
+    </category> -->
+
+</aiml>

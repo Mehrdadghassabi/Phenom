@@ -1,0 +1,120 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- window manager -->
+    <!-- closing windows and tabs -->
+    
+    <category>
+        <pattern>این $تب رو ببند #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+w</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>این تب را ببند #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+w</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>این # رو ببند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>wmctrl -c :ACTIVE:</system></think>
+            </template>
+    </category>
+    <!-- closing windows and tabs -->
+
+
+
+    <!-- opening programs or new window or new tab -->
+
+    <category>
+        <pattern>یک تب جدید باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+t</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>یه تب جدید باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+t</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>یه تب باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+t</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>یک تب باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+t</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>یک پنجره جدید باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+n</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>یک پنجره باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+n</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>پنجره جدید باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+n</system></think>
+            </template>
+    </category>
+
+
+    <category>
+        <pattern>یه پنجره جدید باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+n</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>یه پنجره باز کن #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+                چَشْم
+                <think><system>xdotool key ctrl+n</system></think>
+            </template>
+    </category>
+
+
+</aiml>

@@ -1,0 +1,32 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern>والپیپر را تغییر بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 wallpaper.py</system>
+            والپیپر تغییر کرد
+        </template>
+    </category>
+
+    <category>
+        <pattern>والپیپر رو تغییر بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 wallpaper.py</system>
+            والپیپر تغییر کرد
+        </template>
+    </category>
+
+    <category>
+        <pattern>تغییر والپیپر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 wallpaper.py</system>
+            والپیپر تغییر کرد
+        </template>
+    </category>
+
+
+</aiml>

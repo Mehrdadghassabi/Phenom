@@ -1,0 +1,439 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>ایلومیناتی چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>ایلومیناتی یا محفل روشن ضمیران به سازمان‌های توطئه‌گر مخفی گفته می‌شود که در حکم دولت در سایه عمل می‌کنند که به نظر می‌رسد رخدادهای دنیا را از طریق دولتها و شرکت‌های بزرگ امروزی کنترل می‌کنند</li>
+                <li>یه جور دولت در سایه هستند. البته این محفل فرقه مانند بین سالهای ۱۷۸۴ و ۱۷۸۵ ممنوع اعلام شده و رسماً تعطیل شد ولی شایعات در مورد آن هرگز قطع نشد</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>محفل روشن ضمیران چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ایلومیناتی چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>در مورد سازمان های مخفی چی میدونی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ایلومیناتی چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>سازمان های مخفی چی هستند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ایلومیناتی چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>با ایلومیناتی آشنایی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ایلومیناتی چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر شعر فارسی کیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>قطعا جناب رودکی</li>
+                <li>حدس میزنم رودکی باشه</li>
+                <li>رودکی</li>
+                <li>پدرش رو نمی شناسم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر شعر فارسی کی بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>پدر شعر فارسی کیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر شعر فارسی چه کسی بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>پدر شعر فارسی کیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فردوسی شاعر کدام قرن است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>هممم چهارم</li>
+                <li>چهارم</li>
+                <li>قرن چهارم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فردوسی توی چه قرنی زندگی می کرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فردوسی شاعر کدام قرن است</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فردوسی توی چه قرنی زندگی میکرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فردوسی شاعر کدام قرن است</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فردوسی مال چه قرنیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فردوسی شاعر کدام قرن است</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>سه شاعر معروف قرن هفتم و هشتم رو بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            مولوی، سعدی، حافظ
+        </template>
+    </category>
+
+    <category>
+        <pattern>سه شاعر معروف قرن هفتم و هشتم را نام ببر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            مولوی، سعدی، حافظ
+        </template>
+    </category>
+
+    <category>
+        <pattern>خط میخی اختراع کدام قوم بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>سومریها</li>
+                <li>قوم سومریها</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خط میخی رو چه کسانی اختراع کردند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>خط میخی اختراع کدام قوم بود</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کلیله و دمنه را چه کسی از هند به ایران آورد و به پهلوی ترجمه کرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>برزویه طبیب</li>
+                <li>آقای برزویه طبیب</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کلیله و دمنه رو کی ترجمه کرده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کلیله و دمنه را چه کسی از هند به ایران آورد و به پهلوی ترجمه کرد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>مترجم کلیله و دمنه کیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کلیله و دمنه را چه کسی از هند به ایران آورد و به پهلوی ترجمه کرد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>داستان کلیله و دمنه چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>درباره حیوانت</li>
+                <li>کلیله و دمنه کتابی پندآمیز است که در آن حکایت‌های گوناگون (بیشتر از زبان حیوانات) نقل شده‌است</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کلیله و دمنه درباره چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>داستان کلیله و دمنه چیست</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>موضوع کلیله و دمنه چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>داستان کلیله و دمنه چیست</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>داستان کلیله و دمنه چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>داستان کلیله و دمنه چیست</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کلیله و دمنه رو خوندی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>آره کتاب خیلی جالبیه. توصیه میکنم بخونیش</li>
+                <li>خیلی کتاب باحالیه. مخصوصا برای بچه ها</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تا حالا کلیله و دمنه رو خوندی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کلیله و دمنه رو خوندی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر شعر نو لقب کدام شاعر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نیما یوشیج
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر شعر نو لقب کیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نیما یوشیج
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر شعر نو کیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نیما یوشیج
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر شعر نو رو میشناسی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            آره. نیما یوشیج
+        </template>
+    </category>
+
+    <category>
+        <pattern>نیما یوشیج رو میشناسی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ایشون پدر شعر نو هستند
+        </template>
+    </category>
+
+    <category>
+        <pattern>نیما یوشیج کیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ایشون پدر شعر نو هستند
+        </template>
+    </category>
+
+    <category>
+        <pattern>نویسنده کتاب شازده کوچولو چه نام دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دوسنت اگزوپری
+        </template>
+    </category>
+
+    <category>
+        <pattern>اسم نویسنده شازده کوچولو چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دوسنت اگزوپری
+        </template>
+    </category>
+
+    <category>
+        <pattern>نویسنده شازده کوچولو کیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دوسنت اگزوپری
+        </template>
+    </category>
+
+    <category>
+        <pattern>فرق دوبیتی با رباعی چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            رباعی با هجای بلند شروع میشه ولی دوبیتی با هجای کوتاه
+        </template>
+    </category>
+
+    <category>
+        <pattern>فرق دوبیتی با رباعی چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            رباعی با هجای بلند شروع میشه ولی دوبیتی با هجای کوتاه
+        </template>
+    </category>
+
+    <category>
+        <pattern>رباعی و دوبیتی چه فرقی می کنند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            رباعی با هجای بلند شروع میشه ولی دوبیتی با هجای کوتاه
+        </template>
+    </category>
+
+    <category>
+        <pattern>رباعی و دوبیتی چه فرقی میکنند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            رباعی با هجای بلند شروع میشه ولی دوبیتی با هجای کوتاه
+        </template>
+    </category>
+
+    <category>
+        <pattern>بزرگترین رباعی سرای ایران کدام شاعر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            حکیم عمر خیام
+        </template>
+    </category>
+
+    <category>
+        <pattern>بزرگترین رباعی سرای ایران کیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            حکیم عمر خیام
+        </template>
+    </category>
+
+    <category>
+        <pattern>نویسنده کتاب بابا لنگ دراز کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            جین وِبسْتِر
+        </template>
+    </category>
+
+    <category>
+        <pattern>بابا لنگ دراز رو کی نوشته</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            جین وِبسْتِر
+        </template>
+    </category>
+
+    <category>
+        <pattern>آرامگاه سهراب سپهری در کجاست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            روستای مشهد اردهال واقع در اطراف کاشان
+        </template>
+    </category>
+
+    <category>
+        <pattern>سهراب سپهری کجا خاک شده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            روستای مشهد اردهال واقع در اطراف کاشان
+        </template>
+    </category>
+
+    <category>
+        <pattern>سهراب سپهری تو کدوم شهره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            روستای مشهد اردهال واقع در اطراف کاشان
+        </template>
+    </category>
+
+    <category>
+        <pattern>تا حالا کتاب خوندی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من کتاب های زیادی خوندم</li>
+                <li>آره من عاشق کتاب خوندنم</li>
+                <li>معلومه که خوندم</li>
+                <li>البته</li>
+                <li>آره تو چی؟</li>
+                <li>آره خودت چی؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تا حالا یک کتاب خوندی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تا حالا کتاب خوندی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اصلا تا حالا کتاب خوندی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تا حالا کتاب خوندی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کتاب های زیادی خوندی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>آره</li>
+                <li>من بیش از ۱۰۰۰ کتاب خوندم. تو چی؟</li>
+                <li>حداقل ۱۰۰۰ تا کتاب خوندم</li>
+                <li></li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خیلی کتاب خوندی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کتاب های زیادی خوندی</srai>
+        </template>
+    </category>
+
+</aiml>

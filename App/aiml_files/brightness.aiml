@@ -1,0 +1,40 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>CHANGE BRIGHTNESS TO *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>brightnessctl s <denormalize><star/></denormalize></system></think>
+            Brightness changed to <star/>
+         </template>
+    </category>
+
+    <category>
+        <pattern>$SET $BRIGHTNESS TO *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>brightnessctl s <denormalize><star/></denormalize></system></think>
+            Brightness changed to <star/>
+         </template>
+    </category>
+
+    <category>
+        <pattern>INCREASE BRIGHTNESS *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>brightnessctl s <denormalize><star/> plus</denormalize></system></think>
+            Brightness increased by <star/>
+         </template>
+    </category>
+
+    <category>
+        <pattern>DECREASE BRIGHTNESS *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>brightnessctl s <denormalize><denormalize><star/> </denormalize> dash </denormalize></system></think>
+            Brightness decreased by <star/>
+         </template>
+    </category>
+
+
+</aiml>

@@ -1,0 +1,21 @@
+<aiml version="2.0" encoding="UTF-8">
+    
+    <category>
+        <pattern>$TRANSLATE _</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><set name="text"><star/></set></think>
+            To what language
+        </template>
+    </category>
+
+    <category>
+        <pattern>_</pattern>
+        <that>TO WHAT LANGUAGE</that>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 Translator.py '<get name="text"></get>' '<star/>'</system>
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,35 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>SHOW SYSTEM STATUS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>( free -m | awk 'NR==2{printf "Memory Usage: %s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }' ; df -h | awk '$NF=="/"{printf "Disk Usage: %d/%dGB (%s)\n", $3,$2,$5}' ; top -bn1 | grep load | awk '{printf "CPU Load: %.2f\n", $(NF-2)}' ; acpi)</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW SYSTEM STATUS *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>( free -m | awk 'NR==2{printf "Memory Usage: %s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }' ; df -h | awk '$NF=="/"{printf "Disk Usage: %d/%dGB (%s)\n", $3,$2,$5}' ; top -bn1 | grep load | awk '{printf "CPU Load: %.2f\n", $(NF-2)}' ; acpi)</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SYSTEM STATUS</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>( free -m | awk 'NR==2{printf "Memory Usage: %s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }' ; df -h | awk '$NF=="/"{printf "Disk Usage: %d/%dGB (%s)\n", $3,$2,$5}' ; top -bn1 | grep load | awk '{printf "CPU Load: %.2f\n", $(NF-2)}' ; acpi)</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SYSTEM STATUS *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>( free -m | awk 'NR==2{printf "Memory Usage: %s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }' ; df -h | awk '$NF=="/"{printf "Disk Usage: %d/%dGB (%s)\n", $3,$2,$5}' ; top -bn1 | grep load | awk '{printf "CPU Load: %.2f\n", $(NF-2)}' ; acpi)</system>
+        </template>
+    </category>
+    
+</aiml>

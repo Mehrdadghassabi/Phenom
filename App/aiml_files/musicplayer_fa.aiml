@@ -1,0 +1,355 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern>شروع موزیک پلیر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>bash -c 'xterm -hold -e "mocp"&amp;> /dev/null &amp;'</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>شروع پخش کننده آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>bash -c 'xterm -hold -e "mocp"&amp;> /dev/null &amp;'</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>اجرا سرور موزیک پلیر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>mocp -S</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>اجرا سرور پخش کننده آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>mocp -S</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>پخش لیست پخش</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -p</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>لیست پخش رو پلی کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -p</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>اضافه کردن آهنگ به لیست پخش</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نام آهنک را وارد کن
+        </template>
+    </category>
+
+    <category>
+        <that>نام آهنگ را وارد کن</that>
+        <pattern>_</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -a '<star/>'</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>لیست پخش رو پاک کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -c</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>لیست پخش را پاک کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -c</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ بعدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -f</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>برو آهنگ بعدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -f</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>برو به آهنگ بعدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -f</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ قبلی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -r</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>برو آهنگ قبلی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -r</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>برو به آهنگ قبلی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -r</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ را متوقف کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -s</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ رو استپ کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -s</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ رو استوپ کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -s</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>پخش آهنگ را متوقف کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -s</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>پخش آهنگ رو استپ کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -s</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>پخش آهنگ رو استوپ کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -s</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>مکث آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>مکس آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>مکس اهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>مکث پخش آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>مکس پخش آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>مکس پخش اهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ رو مکث کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ رو مکس کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>اهنگ رو مکس کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -P</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>ادامه آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -U</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>ادامه پخش آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -U</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>پخش آهنگ رو ادامه بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -U</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ رو ادامه بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -U</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>آهنگ را ادامه بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -U</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>پخش آهنگ را ادامه بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -U</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>خروج از موزیک پلیر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -x</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>خروج از پخش کننده آهنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>mocp -x</system>
+            بله قربان
+        </template>
+    </category>
+
+</aiml>

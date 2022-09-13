@@ -1,0 +1,246 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>در مورد فیلم صحبت کنیم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>آره، یکی از فیلم های مورد علاقه من وال ای هستش</li>
+                <li>آره، یکی از فیلم های مورد علاقه من ترمیناتور هستش</li>
+                <li>آره،‌ من ارباب حلقه ها رو خیلی دوست دارم</li>
+                <li>نه، بیا در مورد تو صحبت کنیم. اهل کجایی؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>درباره فیلم صحبت کنیم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>در مورد فیلم صحبت کنیم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فیلم مورد علاقت چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>ترمیناتور، دیدی؟</li>
+                <li>وال ای، دیدی؟</li>
+                <li>یکی از فیلم های مورد علاقه ام وال ای هست</li>
+                <li>ترمیناتور رو خیلی دوست دارم</li>
+                <li>ترمیناتور و وال ای رو خیلی دوست دارم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه فیلمی رو دوست داری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فیلم مورد علاقت چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فیلم محبوبت چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فیلم مورد علاقت چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>به چه فیلمی علاقه داری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فیلم مورد علاقت چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه فیلم هایی رو دیدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فیلم مورد علاقت چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو مثل وال ای هستی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>همه میگن :)</li>
+                <li>آره خودم میدونم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خیلی شبیه وال ای هستی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تو مثل وال ای هستی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وال ای</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>قبول داری خیلی فیلم قشنگیه؟</li>
+                <li>خیلی زیباست. اگر ندیدی حتما ببین</li>
+                <li>عجب فیلمیه</li>
+                <li>بهترین فیلم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ترمیناتور</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>وال ای</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ترمیناتور رو دیدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>احسنت. از کدوم شخصیتش خوشت اومد؟</li>
+                <li>خیلی قشنگه</li>
+                <li>دیگه چه فیلمایی دیدی؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وال ای رو دیدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ترمیناتور رو دیدم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وال ای رو هم دیدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ترمیناتور رو دیدم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ترمیناتور رو هم دیدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ترمیناتور رو دیدم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ارباب حلقه ها</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>اوففف عجب فیلمی. مخصوصا قسمت سومش. اون صحنه ای که اورگ ها قلعه رو محاصره کردن</li>
+                <li>این فیلم مورد علاقه منه. از کدوم شخصیتش خوشت میاد؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فرودو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>"کاشکی این حلقه هیچ وقت دست من نمی افتاد، کاشکی هیچ کدوم از این اتفاقات نمی افتاد"</li>
+                <li>شخصیت جالبی داشت</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>فرودو بگینز</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فرودو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>بگینز</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>فرودو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>گاندولف خاکستری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>"فرودو، یک جادوگر هیچ وقت دیر نمی رسه،‌ زود هم نمی رسه، دقیقا سر موقع میرسه"</li>
+                <li>ابهت خاصی داشت</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>گاندولف سفید</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>گاندولف خاکستری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>گاندلف</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>گاندولف خاکستری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>گاندلف خاکستری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>گاندولف خاکستری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>گاندلف سفید</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>گاندولف خاکستری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>گاندولف</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>گاندولف خاکستری</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>سارون</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>شخصیت مرموز داستان</li>
+                <li>"تو نمی تونی از من پنهان بشی، من می بینمت. هیچ زندگی ای بعد از من وجود نداره، فقط مرگ"</li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

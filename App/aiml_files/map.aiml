@@ -1,0 +1,23 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern># SHOW _ MAP</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>bash -c "xdg-open https://www.google.com/maps/place/'<star index="2"/>'&amp;> /dev/null &amp;"</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern># OPEN _ MAP</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>bash -c "xdg-open https://www.google.com/maps/place/'<star index="2"/>'&amp;> /dev/null &amp;"</system>
+            Yes sir
+        </template>
+    </category>
+
+
+</aiml>

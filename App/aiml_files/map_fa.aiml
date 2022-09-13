@@ -1,0 +1,41 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern># نقشه _ را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>bash -c "xdg-open https://www.google.com/maps/place/'<star index="2"/>'&amp;> /dev/null &amp;"</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern># نقشه _ رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>bash -c "xdg-open https://www.google.com/maps/place/'<star index="2"/>'&amp;> /dev/null &amp;"</system>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern># نقشه _ را باز کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>bash -c "xdg-open https://www.google.com/maps/place/'<star index="2"/>'&amp;> /dev/null &amp;"</system>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern># نقشه _ رو باز کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>bash -c "xdg-open https://www.google.com/maps/place/'<star index="2"/>'&amp;> /dev/null &amp;"</system>
+            بله قربان
+        </template>
+    </category>
+
+
+</aiml>

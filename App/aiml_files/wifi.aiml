@@ -1,0 +1,21 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern># TURN ON WI MINUS FI #</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>nmcli radio wifi on</system>
+            wifi is on
+        </template>
+    </category>
+
+	<category>
+        <pattern># TURN OFF WI MINUS FI #</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>nmcli radio wifi off</system>
+            wifi is off
+        </template>
+    </category>
+
+</aiml>

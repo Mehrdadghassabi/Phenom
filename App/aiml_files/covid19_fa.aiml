@@ -1,0 +1,195 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>آمار کرونا رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار کرونا را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت کرونا رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت کرونا را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار کرونا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت کرونا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار ویروس کرونا رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار ویروس کرونا را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت ویروس کرونا رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت ویروس کرونا را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار ویروس کرونا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت ویروس کرونا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'all'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار کرونا * رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار کرونا * را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت کرونا * رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت کرونا * را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار کرونا *</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت کرونا *</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار ویروس کرونا * رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار ویروس کرونا * را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت ویروس کرونا * رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت ویروس کرونا * را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>آمار ویروس کرونا *</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت ویروس کرونا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 covid19.py 'country' '<star/>'</system>
+        </template>
+    </category>
+
+</aiml>

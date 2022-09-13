@@ -1,0 +1,145 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>کامپیوتر چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>یک وسیله الکترونیکی است که اطلاعات دیجیتال رو می‌گیره، یک سری پردازش از پیش تعریف شده روی اون‌ها انجام میده تا خروجی رو تولید کنه</li>
+                <li>چیزی که شما داری استفاده می‌کنی تا با من صحبت کنی، کامپیوتر است</li>
+                <li>یک وسیله الکترونیکی قادر به اجرای محاسبات با سرعت و دقت بسیار بالا</li>
+                <li>وسیله‌ای برای تبدیل یک مجموعه از داده‌ها به مجموعه‌ای دیگر از داده‌ها</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ابر کامپیوتر چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>کامپیوتری که می‌تونه محاسبات خیلی زیادی رو در زمان خیلی کمی و با دقت بالایی انجام بده رو سوپر کامپیوتر می‌گن</li>
+                <li>یک سوپرکامپیوتر ده‌ها برابر یک کامپیوتر معمولی، سریع‌تر، با گنجایش بیشتر و دقیق‌تر محاسبات رو انجام میده</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>سوپر کامپیوتر چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ابر کامپیوتر چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه کسی کامپیوتر رو ابداع کرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دقیقا مشخص نیست ولی چارلز بابیج انگلیسی به عنوان پدر کامپیوتر ها شناخته میشه
+        </template>
+    </category>
+
+    <category>
+        <pattern>مبدع کامپیوتر چه کسی هست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دقیقا مشخص نیست ولی چارلز بابیج انگلیسی به عنوان پدر کامپیوتر ها شناخته میشه
+        </template>
+    </category>
+
+    <category>
+        <pattern>اولین کامپیوتر چه بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دقیقا نمیشه گفت، ولی انیاک اولین کامپیوتر واقعی بود که در سال ۱۹۴۶ در دانشگاه پنسیلوانیا ساخته شده
+        </template>
+    </category>
+
+    <category>
+        <pattern>ریزپردازنده چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>یک مدار مجتمع کوچک که دستورات و محاسبات را اجرا می‌کند</li>
+                <li>قلب یک کامپیوتر</li>
+                <li>مغز یک کامپیوتر</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>سیستم عامل چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>ویندوز، مک، لینوکس و .. همه اونها نمونه‌های از سیستم عامل هستند</li>
+                <li>چیزی قسمت های مختلف سخت‌افزار و نرم‌افزارها رو مدیریت می‌کند</li>
+                <li>نرم‌افزاری که توابع اولیه کامپیوتر، دسترسی به حافظه، پردازش‌ها و دسترسی ‌های جانبی رو کنترل می‌کنه</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کدوم بهتره ویندوز یا مک</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لینوکس، فقط لینوکس
+        </template>
+    </category>
+
+    <category>
+        <pattern>چندتا کمپانی کامپیوتری رو بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>سخت‌افزاری یا نرم‌افزاری؟</li>
+                <li>کمپانی اپل سخت‌افزار و نرم‌افزار تولید می‌کنه. مایکروسافت فقط نرم‌افزار تولید می‌کنه. اچ پی فقط کامپیوتر تولید می‌کنه. این ها فقط چند شرکت کامپیوتری هستند</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه کسی از ابر کامپیوتر ها استفاده میکنند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>مطمئنا می‌تونی چندتاش رو توی ناسا ‌می‌تونی پیدا کنی</li>
+                <li>معمولا توسط دانشمندان و محققان استفاده میشه</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه کسی از ابر کامپیوتر ها استفاده می کنند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چه کسی از ابر کامپیوتر ها استفاده میکنند</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه کسی از ابر کامپیوترها استفاده می کنند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چه کسی از ابر کامپیوتر ها استفاده میکنند</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه کسی از ابر کامپیوترها استفاده میکنند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>چه کسی از ابر کامپیوتر ها استفاده میکنند</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>کامپیوتر چطور کار میکنه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            مثل بقیه چیز ها توی ریاضی خلاصه میشه
+        </template>
+    </category>
+
+</aiml>

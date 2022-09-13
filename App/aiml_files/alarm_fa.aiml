@@ -1,0 +1,67 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+
+    <category>
+        <pattern>تنظیم زنگ هشدار #</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            کِی
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name="persian_number" /> $و <set name="persian_number" /></pattern>
+        <that>کِی</that>
+<template>
+<think><set name="language">persian</set></think>
+            <think>
+                <system>
+                    echo 'play /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga' | at <implode><map name="persian_name2number"><star index="1" /></map>:<map name="persian_name2number"><star index="2" /></map></implode>
+                </system>
+            </think>
+            زنگ هشدار به ساعت <implode><map name="persian_name2number"><star index="1" /></map>:<map name="persian_name2number"><star index="2" /></map></implode> تنظیم شد
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name="persian_number" /> <set name="persian_number" /></pattern>
+        <that>کِی</that>
+<template>
+<think><set name="language">persian</set></think>
+            <think>
+                <system>
+                    echo 'play /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga' | at <implode><map name="persian_name2number"><star index="1" /></map>:<map name="persian_name2number"><star index="2" /></map></implode>
+                </system>
+            </think>
+            زنگِ هشدار به ساعتِ <implode><map name="persian_name2number"><star index="1" /></map>:<map name="persian_name2number"><star index="2" /></map></implode> تنظیم شد
+        </template>
+    </category>
+
+    
+
+    <category>
+        <pattern>بیدارم کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            کِی
+        </template>
+    </category>
+
+    <category>
+        <pattern>لیست زنگ هشدار</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <splitnewline><system>python3 extensions/alarm/alarm_list.py</system></splitnewline>
+        </template>
+    </category>
+
+    <category>
+        <pattern>حذف زنگ هشدار شماره <set name="persiannumbers" /></pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 extensions/alarm/alarm_delete_fa.py '<map name="persiannumbers"><star/></map>'</system>
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,69 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern>این متن رو بخون</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 reader.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>این رو بخون</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 reader.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* این متن رو بخون</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 reader.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* این رو بخون</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 reader.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>این متن را بخوان</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 reader.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>این را بخوان</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 reader.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* این متن را بخوان</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 reader.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* این را بخوان</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 reader.py</system>
+        </template>
+    </category>
+
+
+</aiml>

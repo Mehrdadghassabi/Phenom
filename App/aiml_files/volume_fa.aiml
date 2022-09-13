@@ -1,0 +1,99 @@
+<aiml version="2.0" encoding="UTF-8">
+
+	<category>
+        <pattern>افزایش صدا * درصد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+<<<<<<< HEAD
+            <think><system>amixer -D pulse sset Master <denormalize><map name="persiannumbers"><star/></map> PERCENT PLUS</denormalize></system></think>
+             صدا <star/> % افزایش یافت
+=======
+            <think><system>amixer -D pulse sset Master <map name="persiannumbers"><star/></map>%+</system></think>
+             صدا <star/> درصد افزایش یافت
+>>>>>>> ca8294f... fix some bugs
+        </template>
+    </category>
+
+	<category>
+        <pattern>کاهش صدا * درصد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+<<<<<<< HEAD
+            <think><system>amixer -D pulse sset Master <denormalize><denormalize><map name="persiannumbers"><star/></map> PERCENT</denormalize> DASH </denormalize></system></think>
+             صدا <star/> % کاهش یافت
+=======
+            <think><system>amixer -D pulse sset Master <map name="persiannumbers"><star/></map>%-</system></think>
+             صدا <star/> درصد کاهش یافت
+>>>>>>> ca8294f... fix some bugs
+        </template>
+    </category>
+
+	<category>
+        <pattern>تنظیم صدا به * درصد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+<<<<<<< HEAD
+            <think><system>amixer -D pulse sset Master <map name="persiannumbers"><star/></map></system></think>
+             صدا به <star/> % تغییر یافت
+=======
+            <think><system>amixer -D pulse sset Master <map name="persiannumbers"><star/></map>%</system></think>
+             صدا به <star/> درصد تغییر یافت
+>>>>>>> ca8294f... fix some bugs
+        </template>
+    </category>
+
+    <category>
+        <pattern>قطع صدا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>amixer -D pulse sset Master mute</system></think>
+            صدا قطع شد
+        </template>
+    </category>
+
+    <category>
+        <pattern>صدا را قطع کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>amixer -D pulse sset Master mute</system></think>
+            صدا قطع شد
+        </template>
+    </category>
+
+    <category>
+        <pattern>صدا رو قطع کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>amixer -D pulse sset Master mute</system></think>
+            صدا قطع شد
+        </template>
+    </category>
+
+	<category>
+        <pattern>وصل صدا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>amixer -D pulse sset Master unmute</system></think>
+             صدا وصل شد
+        </template>
+    </category>
+
+    <category>
+        <pattern>صدا را وصل کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>amixer -D pulse sset Master unmute</system></think>
+             صدا وصل شد
+        </template>
+    </category>
+
+    <category>
+        <pattern>صدا رو وصل کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><system>amixer -D pulse sset Master unmute</system></think>
+             صدا وصل شد
+        </template>
+    </category>
+
+</aiml>

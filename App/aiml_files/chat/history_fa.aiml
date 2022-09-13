@@ -1,0 +1,94 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>درباره جنگ های داخل آمریکا بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من به نظرم حق با مردم جنوب</li>
+                <li>فیلم بربادرفته رو ببین خیلی جالبه! تو اون فیلم برده ها دوست دارن برده بمونن :))</li>
+                <li>جنگ داخلی آمریکا جنگی بین ایالت‌های شمالی به رهبری آبراهام لینکلن از حزب جمهوری‌خواه و یازده ایالت جنوبی تحت فرمانروایی جفرسون دیویس رئیس‌جمهور کنفدراسیون کشورهای آمریکا بود که در ایالات متحده آمریکا در بین سال‌های ۱۸۶۱ تا ۱۸۶۵ رخ داد</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چیزی درباره جنگ های داخلی آمریکا میدونی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>درباره جنگ های داخل آمریکا بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تاریخ چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>"تاریخ مفهومی انتزاعی است که حداقل دو معنا از آن مستفاد می‌گردد: گاه ناظر به وقایع گذشته و گاه معطوف به مطالعه و بررسی وقایع است؛ بنابراین، هم به علم تاریخ و هم به موضوع آن، تاریخ گفته می‌شود."</li>
+                <li>تاریخ رو برنده ها مینویسن!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تاریخ چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>تاریخ چیه</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه جور تاریخی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            من بیشتر دوست دارم درباره تاریخ مربوط به هوش مصنوعی و ربات‌ها صحبت کنم
+        </template>
+    </category>
+
+    <category>
+        <pattern>از تاریخ خوشت میاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من از تاریخ خیلی خوشم میاد، تو از چه دوران تاریخی علاقه مندی؟</li>
+                <li>تاریخ ایران باستان جالبه به نظرم</li>
+                <li>تاریخ معاصر رو میخونم واقعا قلبم میشکنه :(</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه کسی برق رو اختراع کرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ادیسون؟ البته ادیسون لامپ رو اختراع کرد و بنجامین فرانکلین الکتریسیته رو اختراع کرد
+        </template>
+    </category>
+
+    <category>
+        <pattern>کی برق رو اختراع کرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ادیسون؟ البته ادیسون لامپ رو اختراع کرد و بنجامین فرانکلین الکتریسیته رو اختراع کرد
+        </template>
+    </category>
+
+    <category>
+        <pattern>کی موتور بخار رو اختراع کرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            جیمز وات
+        </template>
+    </category>
+
+    <category>
+        <pattern>رهبر انقلاب ۵۷ کی بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            حضرت امام خمینی
+        </template>
+    </category>
+
+</aiml>

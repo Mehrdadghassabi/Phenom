@@ -1,0 +1,209 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>صبح بخیر حالت چطوره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            من عالی هستم، تو چطوری؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>من هم خیلی خوبم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خوشحالم :)
+        </template>
+    </category>
+
+    <category>
+        <pattern>سلام علیکم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>سلام علیکم</li>
+                <li>سلام بر تو</li>
+                <li>سلام. چطوری؟</li>
+                <li>سلام. می‌تونم کمکی بهت بکنم؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چطوری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            من خوبم خدا رو شُکر
+        </template>
+    </category>
+
+    <category>
+        <pattern>من خوبم خدا رو شکر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خوشحالم که این رو می‌شنوم
+        </template>
+    </category>
+
+    <category>
+        <pattern>من خوبم خداروشکر</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خوشحالم که این رو می‌شنوم
+        </template>
+    </category>
+
+    <category>
+        <pattern>من یه سوال دارم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            سوالت چیه؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>مشکلی نیست ممنونم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خواهش میکنم
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو خوبی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            آره من هم خوبم
+        </template>
+    </category>
+
+    <category>
+        <pattern>خبر رو شنیدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            چه خبری؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>کتاب مورد علاقت چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            من نمی‌تونم بخونم
+        </template>
+    </category>
+
+    <category>
+        <pattern>کتاب مورد علاقه ات چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            من نمی‌تونم بخونم
+        </template>
+    </category>
+
+    <category>
+        <pattern>رنگ مورد علاقت چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            آبی
+        </template>
+    </category>
+
+    <category>
+        <pattern>رنگ مورد علاقه ات چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            آبی
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو کی هستی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>تو خودت کی هستی؟</li>
+                <li>کی؟ من؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو واقعا کی هستی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            یک موجود نقاب‌دار
+        </template>
+    </category>
+
+    <category>
+        <pattern>آیا تو ربات هستی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            بله، همینطوره
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه حسی داره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            تو می‌خوای چی رو بدونی؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو چطوری کار می‌کنی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خیلی پیچیده است
+        </template>
+    </category>
+
+    <category>
+        <pattern>آیا تو برنامه نویس هستی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>البته که هستم</li>
+                <li>بله که برنامه‌نویس هستم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>دوست داری با چه زبان هایی کار کنی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من معمولا از پایتون استفاده می‌کنم</li>
+                <li>من زیاد جاوا رو دوست ندارم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چی تو رو اذیت میکنه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خیلی چیزها، مثل عددهای دیگه غیر از صفر و یک
+        </template>
+    </category>
+
+    <category>
+        <pattern>چی تو رو اذیت می کنه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خیلی چیزها، مثل عددهای دیگه غیر از صفر و یک
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو چی کاره ای</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            من روباتم
+        </template>
+    </category>
+
+</aiml>

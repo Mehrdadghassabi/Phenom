@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  
+    <!-- SCHEDULE IN|EVERY X SECS|MINS|HOURS|DAYS|WEEKS TEXT|SRAI ........... -->
+
+    <category>
+        <pattern>$SCHEDULE IN * * TEXT *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE IN <star index="1" /> <star index="2" /> TEXT <star index="3" />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>$SCHEDULE EVERY * * TEXT *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE EVERY <star index="1" /> <star index="2" /> TEXT <star index="3" />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>$SCHEDULE IN * * SRAI *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE IN <star index="1" /> <star index="2" /> SRAI <star index="3" />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>$SCHEDULE EVERY * * SRAI *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE EVERY <star index="1" /> <star index="2" /> SRAI <star index="3" />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>$SCHEDULE AT * * TIME * * TEXT *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE AT <star index="1" /> <star index="2" /> TIME <star index="3" /> <star index="4" /> TEXT <star index="5" />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE OK</pattern>
+<template>
+<think><set name="language">english</set></think>
+            OK, thats scheduled.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, I was not able to set that reminder at this time!
+        </template>
+    </category>
+
+    <!-- ############################################################################################# -->
+    <!-- SCHEDULER PAUSE ALL|NUM -->
+
+    <category>
+        <pattern>SCHEDULER PAUSE $ALL</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE PAUSE ALL
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE PAUSE ALL
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE PAUSE ALL OK</pattern>
+<template>
+<think><set name="language">english</set></think>
+            OK, they are all paused.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE PAUSE ALL ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, I was unable to pause your scheduled events at this time!
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULER PAUSE *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE PAUSE JOB
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE PAUSE <star />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE PAUSE JOB OK</pattern>
+<template>
+<think><set name="language">english</set></think>
+            OK, that is paused.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE PAUSE JOB ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, I was unable to pause your scheduled event at this time!
+        </template>
+    </category>
+
+    <!-- ############################################################################################# -->
+    <!-- SCHEDULER RESUME ALL|NUM -->
+
+    <category>
+        <pattern>SCHEDULER RESUME $ALL</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE RESUME
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE RESUME ALL
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE RESUME OK</pattern>
+<template>
+<think><set name="language">english</set></think>
+            OK, they are all resumed.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE RESUME ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, I was unable to resume your scheduled events at this time!
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULER RESUME *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE RESUME JOB
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE RESUME <star />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE RESUME JOB OK</pattern>
+<template>
+<think><set name="language">english</set></think>
+            OK, that is resumed.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE RESUME JOB ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, I was unable to resumed your scheduled event at this time!
+        </template>
+    </category>
+
+    <!-- ############################################################################################# -->
+    <!-- SCHEDULER STOP ALL|NUM -->
+
+    <category>
+        <pattern>SCHEDULER STOP $ALL</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE STOP
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE STOP ALL
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE STOP OK</pattern>
+<template>
+<think><set name="language">english</set></think>
+            OK, they are all stopped.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE STOP ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, I was unable to stop your scheduled events at this time!
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULER STOP *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE STOP JOB
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE STOP <star />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE STOP JOB OK</pattern>
+<template>
+<think><set name="language">english</set></think>
+            OK, that is stopped.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE STOP JOB ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, I was unable to stop your scheduled event at this time!
+        </template>
+    </category>
+
+    <!-- ############################################################################################# -->
+    <!-- SCHEDULER LIST -->
+
+    <category>
+        <pattern>SCHEDULER LIST</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SCHEDULE LIST
+                <extension path="extensions.scheduler.scheduler.SchedulerExtension">
+                    SCHEDULE LIST
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE LIST OK *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <star />
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCHEDULE LIST ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            You have no scheduler actions at this time!
+        </template>
+    </category>
+
+</aiml>

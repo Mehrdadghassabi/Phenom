@@ -1,0 +1,71 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern>BMI من را حساب کن</pattern>
+        <template>
+        <think><set name="language">persian</set></think>
+            قد خود را به سانتی متر وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>بی ام آی من را حساب کن</pattern>
+        <template>
+        <think><set name="language">persian</set></think>
+            قد خود را به سانتی متر وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>BMI من رو حساب کن</pattern>
+        <template>
+        <think><set name="language">persian</set></think>
+            قد خود را به سانتی متر وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>بی ام آی من رو حساب کن</pattern>
+        <template>
+        <think><set name="language">persian</set></think>
+            قد خود را به سانتی متر وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>بی ام آی بدن من را حساب کن</pattern>
+        <template>
+        <think><set name="language">persian</set></think>
+            قد خود را به سانتی متر وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name="persiannumbers" /></pattern>
+        <that>قد خود را به سانتی متر وارد کنید</that>
+        <template>
+        <think><set name="language">persian</set></think>
+            <think><set name="height"><map name="persiannumbers"><star/></map></set></think>
+            وزن خود را به کیلوگرم وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>بی ام آی بدن من رو حساب کن</pattern>
+        <template>
+        <think><set name="language">persian</set></think>
+            قد خود را به سانتی متر وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name="persiannumbers" /></pattern>
+        <that>وزن خود را به کیلوگرم وارد کنید</that>
+        <template>
+        <think><set name="language">persian</set></think>
+            <system>python3 bmi_calculator.py <get name="height"></get> <map name="persiannumbers"><star/></map> fa</system>
+        </template>
+    </category>
+
+</aiml>

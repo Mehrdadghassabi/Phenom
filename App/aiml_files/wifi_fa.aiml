@@ -1,0 +1,39 @@
+<aiml version="2.0" encoding="UTF-8">
+
+	 <category>
+        <pattern>وای فای را روشن کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>nmcli radio wifi on</system>
+            وای فای روشن است
+        </template>
+    </category>
+
+    <category>
+        <pattern>وای فای رو روشن کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>nmcli radio wifi on</system>
+            وای فای روشن است
+        </template>
+    </category>
+
+	<category>
+        <pattern>وای فای را خاموش کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>nmcli radio wifi off</system>
+            وای فای خاموش است
+        </template>
+    </category>
+
+    <category>
+        <pattern>وای فای رو خاموش کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>nmcli radio wifi off</system>
+            وای فای خاموش است
+        </template>
+    </category>
+
+</aiml>

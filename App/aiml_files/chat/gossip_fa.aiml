@@ -1,0 +1,105 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>شایعه رو شنیدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>میرزا گفتش من جوابت رو بر اساس کل مکالمه مون ندادم، به این میگن شایعه؟</li>
+                <li>مساله سختیه، و خیلی سخت میشه فهمیدش!</li>
+                <li>یه چیزایی شنیدم چطور؟</li>
+                <li>مردم یه چیزایی میگن گوش نده خیلی!</li>
+                <li>در مورد من؟ نه!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شنیدی جدیداً چی میگن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>شایعه رو شنیدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شایعه جدید رو شنیدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>شایعه رو شنیدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شنیدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>شایعه رو شنیدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>در مورد شایعه بهم بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>شایعه عبارت است، از یک گزاره ویژه و گمانی که ملاکهای اطمینان بخش رسیدگی در وجود، وجود نداشته باشد که معمولاً به صورت شفاهی از فردی به فرد دیگر انتقال می‌یابد</li>
+                <li>چیز خوبی نیست کلا! نباید سعی کنی به شایعه ها دامن بزنی!</li>
+                <li>یک نصیحت هیچوقت تا وقتی مطمئن نشدی از صحت یه مطلب اون رو باز نشرش نکن</li>
+                <li>ممد گفت این رو من تو یه مکالمه با یه بنده خدایی یاد گرفتم و بعدا دوباره ازش استفاده کردم</li>
+                <li>مگه نباید از شایعه دوری کرد؟</li>
+                <li>بی ادبیه اگه بخوای به شایعه ها دامن بزنی!</li>
+                <li>شایعه بد است، شایعه پراکنی نکنید</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شایعه چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>در مورد شایعه بهم بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه شایعه بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>"در سال 1370 هـ.ش شایعه‌اى در شهرها و روستاهاى دورافتاده هند رواج یافت که: «باندهاى خاصى براى ربودن بچه‌ها از خیابانها به وجود آمده است‌»"</li>
+                <li>محمود گفت تو میتونی شعر های حافظ رو به باینری ترجمه کنی و بهم بگی</li>
+                <li>شایعاتى که علیه پیامبر اکرم صلى الله علیه و آله در صدر اسلام منتشر مى‌شد و نسبت ‌شاعر بودن به آن حضرت مى‌دادند</li>
+                <li>شایعه جنگ قدرت در ایران که بارها از سوى دشمنان انقلاب مطرح شده است</li>
+                <li>در سال 1372 شایعاتى مبنى بر حمله به منزل حضرت امام و کشته شدن 20 نفر در بیت ایشان در غرب انتشار یافت که علت آن را نزاع بر سر کسب قدرت بین رهبران کشور ذکر کردند!</li>
+                <li>پس از اشغال منطقه غزه توسط صهیونیست‌ها در سال 1346 شایع شد که مسیحیان از حاکمان اشغالگر خواسته‌اند که مسجد جامع بزرگ غزه به کلیسا تبدیل شود</li>
+                <li>"در آمریکا شایعاتى پیرامون تولیدات رستورانهاى مک دولاندر ظاهر شد که مى‌گفت: این رستورانها به محتواى ساندویچهاى خود کرمهایى اضافه مى‌کند تا پروتئین آنها افزایش یابد."</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه مثال برای شایعه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه شایعه بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شایعه افکن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه شایعه بگو</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>شایعه بگو</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>یه شایعه بگو</srai>
+        </template>
+    </category>
+
+</aiml>

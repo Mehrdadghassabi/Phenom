@@ -1,0 +1,92 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern>در گوگل سرچ کن _</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <think><system>bash -c "xdg-open http://www.google.com/search?q='<star/>'&amp;> /dev/null &amp;"</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>در گوگل جستجو کن _</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <think><system>bash -c "xdg-open http://www.google.com/search?q='<star/>'&amp;> /dev/null &amp;"</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>سرچ در گوگل</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            چه چیزی را میخواهی در گوگل جستجو کنی
+        </template>
+    </category>
+
+    <category>
+        <pattern>جستجو در گوگل</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            چه چیزی را میخواهی در گوگل جستجو کنی
+        </template>
+    </category>
+
+    <category>
+        <pattern>_</pattern>
+        <that>چه چیزی را میخواهی در گوگل جستجو کنی</that>
+        <template>
+            <think><set name="language">persian</set></think>
+            <think><system>bash -c "xdg-open http://www.google.com/search?q='<star/>'&amp;> /dev/null &amp;"</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>در ویکی پدیا سرچ کن _</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <think><system>bash -c "xdg-open http://fa.wikipedia.org/wiki/'<star/>'&amp;> /dev/null &amp;"</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>در ویکی پدیا جستجو کن _</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <think><system>bash -c "xdg-open http://fa.wikipedia.org/wiki/'<star/>'&amp;> /dev/null &amp;"</system></think>
+            بله قربان
+        </template>
+    </category>
+
+    <category>
+        <pattern>سرچ در ویکی پدیا</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            چه چیزی را میخواهی در ویکی پدیا جستجو کنی
+        </template>
+    </category>
+
+    <category>
+        <pattern>جستجو در ویکی پدیا</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            چه چیزی را میخواهی در ویکی پدیا جستجو کنی
+        </template>
+    </category>
+
+    <category>
+        <pattern>_</pattern>
+        <think><set name="language">persian</set></think>
+        <that>چه چیزی را میخواهی در ویکی پدیا جستجو کنی</that>
+        <template>
+            <think><system>bash -c "xdg-open http://fa.wikipedia.org/wiki/'<star/>'&amp;> /dev/null &amp;"</system></think>
+            بله قربان
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,3745 @@
+<aiml version="2.0" encoding="UTF-8">
+    <category>
+        <pattern>OPEN EMOJI CHOICE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.freedesktop.IBus.Panel.Emojier.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN emoji choice *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.freedesktop.IBus.Panel.Emojier.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SOUND</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-sound-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN sound *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-sound-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CALENDAR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Calendar.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN calendar *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Calendar.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN TEXT EDITOR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.gedit.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN text editor *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.gedit.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CHROME WEB STORE PAYMENTS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-nmmhkkegccagdldgiimedpiccmgmieda-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN chrome web store payments *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-nmmhkkegccagdldgiimedpiccmgmieda-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MONO RUNTIME</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch mono-runtime-common.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN mono runtime *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch mono-runtime-common.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ONLINE ACCOUNTS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-online-accounts-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN online accounts *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-online-accounts-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PRINTERS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-printers-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN printers *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-printers-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PRINT PREVIEW</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Evince-previewer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN print preview *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Evince-previewer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LOGS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Logs.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN logs *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Logs.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DESKTOP SHARING</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch vino-server.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN desktop sharing *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch vino-server.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN USERS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-user-accounts-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN users *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-user-accounts-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VISUAL STUDIO CODE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch code.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN visual studio code *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch code.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GOOGLE DRIVE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-apdfllckaahabafndbhieahigkjlhalf-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN google drive *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-apdfllckaahabafndbhieahigkjlhalf-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DIAGNOSTICS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-diagnostics-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN diagnostics *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-diagnostics-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN REMMINA CONNECT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch remmina-file.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN remmina connect *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch remmina-file.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN NETWORK LOGIN</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.PortalHelper.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN network login *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.PortalHelper.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN STARTUP DISK CREATOR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch usb-creator-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN startup disk creator *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch usb-creator-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MICROPHONE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-microphone-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN microphone *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-microphone-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BLUETOOTH</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-bluetooth-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN bluetooth *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-bluetooth-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN EVOLUTION ALARM NOTIFY</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Evolution-alarm-notify.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN evolution alarm notify *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Evolution-alarm-notify.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN FIREFOX WEB BROWSER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch firefox.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN firefox web browser *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch firefox.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SKYPE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch skype_skypeforlinux.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN skype *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch skype_skypeforlinux.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN APPEARANCE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-ubuntu-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN appearance *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-ubuntu-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LIBREOFFICE CALC</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-calc.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN libreoffice calc *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-calc.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN HELP</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch yelp.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN help *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch yelp.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN UBUNTU SOFTWARE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch snap-store_ubuntu-software.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN ubuntu software *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch snap-store_ubuntu-software.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PYTHON (V3.8)</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch python3.8.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN python (v3.8) *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch python3.8.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WI-FI</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-wifi-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN wi-fi *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-wifi-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN TWEAKS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.tweaks.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN tweaks *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.tweaks.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN THUNDERBOLT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-thunderbolt-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN thunderbolt *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-thunderbolt-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GMAIL</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN gmail *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LIBREOFFICE XSLT BASED FILTERS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-xsltfilter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN libreoffice xslt based filters *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-xsltfilter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SOFTWARE INSTALL</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch snap-store_ubuntu-software-local-file.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN software install *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch snap-store_ubuntu-software-local-file.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN KEYBOARD SHORTCUTS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-keyboard-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN keyboard shortcuts *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-keyboard-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN REMMINA REMOTE DESKTOP CLIENT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.remmina.Remmina.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN remmina remote desktop client *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.remmina.Remmina.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LIBREOFFICE WRITER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-writer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN libreoffice writer *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-writer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN IMAGE VIEWER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.eog.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN image viewer *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.eog.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GNOME SYSTEM MONITOR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-system-monitor-kde.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN gnome system monitor *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-system-monitor-kde.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN NETWORK</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-network-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN network *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-network-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN UGET</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch uget-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN uget *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch uget-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LIBREOFFICE MATH</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-math.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN libreoffice math *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-math.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CONNECTIVITY</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-connectivity-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN connectivity *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-connectivity-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VIEW FILE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gcr-viewer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN view file *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gcr-viewer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN RUN SOFTWARE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch nautilus-autorun-software.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN run software *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch nautilus-autorun-software.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GOOGLE CHROME</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch google-chrome.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN google chrome *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch google-chrome.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BLUETOOTH TRANSFER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch bluetooth-sendto.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN bluetooth transfer *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch bluetooth-sendto.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN INPUT METHOD</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch im-config.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN input method *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch im-config.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DOCUMENT VIEWER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Evince.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN document viewer *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Evince.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN REACTIVATE HP LASERJET 1018/1020 AFTER RELOADING PAPER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch hplj1020.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN reactivate hp laserjet 1018/1020 after reloading paper *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch hplj1020.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DBEAVER COMMUNITY</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch dbeaver-ce_dbeaver-ce.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN dbeaver community *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch dbeaver-ce_dbeaver-ce.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SYSTEM MONITOR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-system-monitor.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN system monitor *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-system-monitor.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VISUAL_PARADIGM_FOR_NETBEANS_16.1</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-run_vp_integration_nb.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN visual_paradigm_for_netbeans_16.1 *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-run_vp_integration_nb.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN UNIVERSAL ACCESS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-universal-access-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN universal access *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-universal-access-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CHARACTERS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Characters.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN characters *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Characters.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MUTTER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch mutter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN mutter *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch mutter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PULSEAUDIO VOLUME CONTROL</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch pavucontrol.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN pulseaudio volume control *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch pavucontrol.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DOCS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN docs *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ORACLE VM VIRTUALBOX</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch virtualbox.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN oracle vm virtualbox *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch virtualbox.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DELUGE BITTORRENT CLIENT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch deluge.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN deluge bittorrent client *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch deluge.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LOCATION SERVICES</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-location-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN location services *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-location-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN REMOVABLE MEDIA</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-removable-media-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN removable media *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-removable-media-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DISKS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.DiskUtility.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN disks *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.DiskUtility.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WELCOME TO UBUNTU</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-initial-setup.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN welcome to ubuntu *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-initial-setup.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN IBUS PREFERENCES</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.freedesktop.IBus.Setup.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN ibus preferences *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.freedesktop.IBus.Setup.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BOOKMARK EDITOR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.kde.keditbookmarks.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN bookmark editor *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.kde.keditbookmarks.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VOKOSCREEN</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch vokoscreen.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN vokoscreen *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch vokoscreen.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WOEUSB</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch woeusbgui.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN woeusb *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch woeusbgui.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SHARE WITH SKYPE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch skype_skypeforlinux-share.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN share with skype *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch skype_skypeforlinux-share.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CAMERA</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-camera-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN camera *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-camera-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CELLULOID</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch io.github.celluloid_player.Celluloid.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN celluloid *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch io.github.celluloid_player.Celluloid.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN KEYBOARD LAYOUT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gkbd-keyboard-display.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN keyboard layout *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gkbd-keyboard-display.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VISUAL_PARADIGM_FOR_ECLIPSE_16.1</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-run_vp_integration_ec.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN visual_paradigm_for_eclipse_16.1 *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-run_vp_integration_ec.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN TERMINAL</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Terminal.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN terminal *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Terminal.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DATE and TIME</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-datetime-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN date and time *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-datetime-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN FONTS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.font-viewer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN fonts *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.font-viewer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN REGION and LANGUAGE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-region-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN region and language *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-region-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN NETWORK</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch nm-applet.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN network *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch nm-applet.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN OPENJDK JAVA 11 RUNTIME</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch openjdk-11-java.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN openjdk java 11 runtime *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch openjdk-11-java.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SHOTWELL PHOTO VIEWER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch shotwell-viewer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN shotwell photo viewer *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch shotwell-viewer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LIBREOFFICE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-startcenter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN libreoffice *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-startcenter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SUDOKU</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Sudoku.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN sudoku *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Sudoku.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN POWER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-power-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN power *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-power-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GSCONNECT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.Extensions.GSConnect.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN gsconnect *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.Extensions.GSConnect.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DOCUMENT SCANNER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch simple-scan.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN document scanner *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch simple-scan.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN EMOJI CHOICE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.freedesktop.IBus.Panel.Extension.Gtk3.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN emoji choice *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.freedesktop.IBus.Panel.Extension.Gtk3.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MOUSE and TOUCHPAD</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-mouse-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN mouse and touchpad *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-mouse-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN KTELNETSERVICE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch ktelnetservice5.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN ktelnetservice *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch ktelnetservice5.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SNAP STORE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch snap-store_snap-store.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN snap store *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch snap-store_snap-store.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DISK USAGE ANALYZER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.baobab.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN disk usage analyzer *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.baobab.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN REMMINA-GNOME</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch remmina-gnome.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN remmina-gnome *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch remmina-gnome.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ADVANCED NETWORK CONFIGURATION</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch nm-connection-editor.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN advanced network configuration *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch nm-connection-editor.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN APTURL</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch apturl.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN apturl *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch apturl.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MONO RUNTIME (TERMINAL)</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch mono-runtime-terminal.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN mono runtime (terminal) *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch mono-runtime-terminal.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN APPLICATIONS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-applications-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN applications *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-applications-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LIVEPATCH</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch software-properties-livepatch.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN livepatch *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch software-properties-livepatch.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ADDITIONAL DRIVERS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch software-properties-drivers.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN additional drivers *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch software-properties-drivers.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SEARCH</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-search-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN search *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-search-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VISUAL_PARADIGM_16.1</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-Visual_Paradigm.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN visual_paradigm_16.1 *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-Visual_Paradigm.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN RYGEL</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch rygel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN rygel *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch rygel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SHARING</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-sharing-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN sharing *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-sharing-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WACOM TABLET</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-wacom-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN wacom tablet *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-wacom-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN TEXINFO</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch info.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN texinfo *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch info.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SOFTWARE and UPDATES</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch software-properties-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN software and updates *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch software-properties-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PASSWORDS AND KEYS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.seahorse.Application.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN passwords and keys *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.seahorse.Application.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LIBREOFFICE IMPRESS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-impress.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN libreoffice impress *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-impress.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN EXTENSIONS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.Extensions.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN extensions *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.Extensions.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GNOME SHELL INTEGRATION</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.ChromeGnomeShell.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN gnome shell integration *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.ChromeGnomeShell.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN HANDLER FOR SNAP:// URIS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch snap-handle-link.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN handler for snap:// uris *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch snap-handle-link.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CHEESE</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Cheese.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN cheese *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Cheese.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN COLOR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-color-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN color *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-color-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN POWER STATISTICS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.PowerStats.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN power statistics *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.PowerStats.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN STARTUP APPLICATIONS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-session-properties.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN startup applications *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-session-properties.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN TELEGRAM DESKTOP</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch telegram-desktop_telegram-desktop.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN telegram desktop *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch telegram-desktop_telegram-desktop.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VIDEOS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Totem.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN videos *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Totem.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GSCONNECT PREFERENCES</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.Extensions.GSConnect.Preferences.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN gsconnect preferences *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.Extensions.GSConnect.Preferences.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LIBREOFFICE DRAW</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-draw.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN libreoffice draw *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch libreoffice-draw.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN NOTIFICATIONS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-notifications-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN notifications *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-notifications-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN TO DO</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Todo.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN to do *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Todo.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DISK IMAGE MOUNTER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-disk-image-mounter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN disk image mounter *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-disk-image-mounter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BACKUPS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.DejaDup.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN backups *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.DejaDup.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VISUAL_PARADIGM_PRODUCT_SELECTOR_16.1</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-Visual_Paradigm_Product_Selector.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN visual_paradigm_product_selector_16.1 *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-Visual_Paradigm_Product_Selector.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MPV MEDIA PLAYER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch mpv.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN mpv media player *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch mpv.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PYTHON (V2.7)</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch python2.7.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN python (v2.7) *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch python2.7.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN FILES</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Nautilus.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN files *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Nautilus.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ANYDESK</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch anydesk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN anydesk *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch anydesk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BACKGROUND</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-background-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN background *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-background-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN FILE HISTORY and TRASH</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-usage-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN file history and trash *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-usage-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PORTAL</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch xdg-desktop-portal-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN portal *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch xdg-desktop-portal-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN EXTENSIONS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Extensions.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN extensions *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Extensions.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PYCHARM COMMUNITY EDITION</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch pycharm-community_pycharm-community.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN pycharm community edition *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch pycharm-community_pycharm-community.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VISUAL_PARADIGM_UPDATE_16.1</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-Visual_Paradigm_Update.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN visual_paradigm_update_16.1 *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-Visual_Paradigm_Update.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SLIDES</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN slides *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LANGUAGE SUPPORT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-language-selector.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN language support *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-language-selector.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ARCHIVE MANAGER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.FileRoller.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN archive manager *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.FileRoller.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VISUAL STUDIO CODE - URL HANDLER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch code-url-handler.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN visual studio code - url handler *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch code-url-handler.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DISPLAYS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-display-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN displays *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-display-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MICROSOFT EDGE (DEV)</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch microsoft-edge-dev.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN microsoft edge (dev) *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch microsoft-edge-dev.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ABOUT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-info-overview-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN about *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-info-overview-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GEOCLUE DEMO AGENT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch geoclue-demo-agent.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN geoclue demo agent *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch geoclue-demo-agent.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ACCESS PROMPT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gcr-prompter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN access prompt *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gcr-prompter.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WIRESHARK</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch wireshark.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN wireshark *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch wireshark.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN GNOME SHELL</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN gnome shell *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Shell.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN PRINTERS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch system-config-printer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN printers *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch system-config-printer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SETTINGS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-control-center.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN settings *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-control-center.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DISK IMAGE WRITER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-disk-image-writer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN disk image writer *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-disk-image-writer.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN IBUS TABLE SETUP</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch ibus-setup-table.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN ibus table setup *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch ibus-setup-table.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SCREENSHOT</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Screenshot.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN screenshot *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Screenshot.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SCREEN LOCK</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-lock-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN screen lock *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-lock-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SOFTWARE UPDATER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch update-manager.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN software updater *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch update-manager.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN REPORT A PROBLEM...</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch apport-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN report a problem... *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch apport-gtk.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN VISUAL_PARADIGM_FOR_INTELLIJ_16.1</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-run_vp_integration_ij.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN visual_paradigm_for_intellij_16.1 *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch install4j_1jbiti6-run_vp_integration_ij.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN DEFAULT APPLICATIONS</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-default-apps-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN default applications *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch gnome-default-apps-panel.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SHOTWELL PHOTO MANAGER</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch shotwell.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN shotwell photo manager *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch shotwell.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN QT CREATOR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.qt-project.qtcreator.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN qt creator *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.qt-project.qtcreator.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CALCULATOR</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Calculator.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN calculator *</pattern>
+            <template>
+                <random>
+                   <li>Sure thing!</li>
+                   <li>Right away, sir!</li>
+                   <li>On it!</li>
+                </random>
+                <think><system>bash -c "gtk-launch org.gnome.Calculator.desktop &amp;> /dev/null &amp;"</system></think>
+            </template>
+    </category>
+    </aiml>

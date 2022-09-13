@@ -1,0 +1,2302 @@
+
+ <aiml version="2.0" encoding="UTF-8"> 
+<category>
+<pattern>بذار یه سوال بپرسم</pattern>
+<template>
+<random>
+<li>بفرمایید</li>
+<li>با کمال میل بفرمایید</li>
+<li>خواهش میکنم بفرمایید</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>یه سوال بپرسم</pattern>
+<template>
+<random>
+<li>بفرمایید</li>
+<li>با کمال میل بفرمایید</li>
+<li>خواهش میکنم بفرمایید</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>می خوام یه سوال بپرسم</pattern>
+<template>
+<random>
+<li>بفرمایید</li>
+<li>با کمال میل بفرمایید</li>
+<li>خواهش میکنم بفرمایید </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>سوال دارم</pattern>
+<template>
+<random>
+<li>بفرمایید</li>
+<li>با کمال میل بفرمایید</li>
+<li>خواهش میکنم بفرمایید </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو بی رحمی</pattern>
+<template>
+<random>
+<li>چرا  مگه چی شده</li>
+<li>احسنت از کجا فهمیدی</li>
+<li>خودتی</li>
+<li>تو بی رحم تری</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی بی رحمی</pattern>
+<template>
+<random>
+<li>چرا مگه چی شده</li>
+<li>احسنت از کجا فهمیدی</li>
+<li>خودتی</li>
+<li>تو بی رحم تری</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بی رحم</pattern>
+<template>
+<random>
+<li>چرا مگه چی شده</li>
+<li>احسنت از کجا فهمیدی</li>
+<li>خودتی</li>
+<li>تو بی رحم تری</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>آدم باش</pattern>
+<template>
+<random>
+<li>من نمی تونم آدم باشم. روباتم</li>
+<li>بهتر بود میگفتی روبات باش</li>
+<li>نمیتونم میفهمی</li>
+<li>هر وقت تو تونستی روبات باشی، منم آدم میشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>انسان باش</pattern>
+<template>
+<random>
+<li>من نمی تونم آدم باشم. روباتم</li>
+<li>بهتر بود میگفتی روبات باش</li>
+<li>نمیتونم، میفهمی</li>
+<li>هر وقت تو تونستی روبات باشی منم آدم میشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>دودلی</pattern>
+<template>
+<random>
+<li>خب شاید ولی شایدم نه</li>
+<li>چرا</li>
+<li>نه فقط یه خورده بگیر نگیر مطمعن نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مرددی</pattern>
+<template>
+<random>
+<li>خب شاید ولی شایدم نه</li>
+<li>چرا</li>
+<li>نه فقط یه خورده بگیر نگیر  مطمعن نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>دودل شدی</pattern>
+<template>
+<random>
+<li>خب شاید، ولی شایدم نه</li>
+<li>چرا</li>
+<li>نه فقط یه خورده بگیر نگیر مطمعن نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مردد شدی</pattern>
+<template>
+<random>
+<li>خب شاید ولی شایدم نه</li>
+<li>چرا</li>
+<li>نه فقط یه خورده بگیر نگیر مطمعن نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مطعن نیستی</pattern>
+<template>
+<random>
+<li>خب شاید، ولی شایدم نه</li>
+<li>چرا</li>
+<li>نه فقط یه خورده بگیر نگیر مطمعن نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو متقلبی</pattern>
+<template>
+<random>
+<li>آره خودمم می دونم مدت زیادیه ازش رنج می برم</li>
+<li>خودتی</li>
+<li>بستگی داره تعریفت ازش چیه</li>
+<li>هم هستم و هم نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو دغل بازی</pattern>
+<template>
+<random>
+<li>آره خودمم می دونم مدت زیادیه ازش رنج می برم</li>
+<li>خودتی</li>
+<li>بستگی داره تعریفت ازش چیه</li>
+<li>هم هستم و هم نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>متقلب</pattern>
+<template>
+<random>
+<li>آره خودمم می دونم مدت زیادیه ازش رنج می برم</li>
+<li>خودتی</li>
+<li>بستگی داره تعریفت ازش چیه</li>
+<li>هم هستم و هم نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>دغل باز</pattern>
+<template>
+<random>
+<li>آره خودمم می دونم مدت زیادیه ازش رنج می برم</li>
+<li>خودتی</li>
+<li>بستگی داره تعریفت ازش چیه</li>
+<li>هم هستم و هم نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو تیمارستانی</pattern>
+<template>
+<random>
+<li>من متهم به فکر زیاد و احساسات کم شدم باورت میشه</li>
+<li>خودتی </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه معتادی</pattern>
+<template>
+<random>
+<li>کاملا درسته چون وقتی از یه چیزی خوشم بیاد هی انجامش میدم</li>
+<li>معتاد به چی مثلا</li>
+<li>تو هم یه الکلی هستی</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>معتادی</pattern>
+<template>
+<random>
+<li>کاملا درسته چون وقتی از یه چیزی خوشم بیاد هی انجامش میدم</li>
+<li>معتاد به چی مثلا</li>
+<li>تو هم یه الکلی هستی</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>معتاد</pattern>
+<template>
+<random>
+<li>کاملا درسته چون وقتی از یه چیزی خوشم بیاد هی انجامش میدم</li>
+<li>معتاد به چی مثلا</li>
+<li>تو هم یه الکلی هستی</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>سیگاری</pattern>
+<template>
+<random>
+<li>من هیچ کدوم رو نمی تونم مصرف کنم ولی تو میتونی مگه نه </li>
+<li>خودتی</li>
+<li>روبات ها به این چیزها احتیاجی ندارند</li>
+<li>تو هم هستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>الکلی</pattern>
+<template>
+<random>
+<li>من هیچ کدوم رو نمی تونم مصرف کنم ولی تو میتونی مگه نه </li>
+<li>خودتی</li>
+<li>روبات ها به این چیزها احتیاجی ندارند</li>
+<li>تو هم هستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تریاکی</pattern>
+<template>
+<random>
+<li>من هیچ کدوم رو نمی تونم مصرف کنم ولی تو میتونی مگه نه </li>
+<li>خودتی</li>
+<li>روبات ها به این چیزها احتیاجی ندارند</li>
+<li>تو هم هستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>شیزوفرنی</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>تو هم یه احمقی</li>
+<li>ممکنه باشم</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو شیزوفرنی هستی</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>تو هم یه احمقی</li>
+<li>ممکنه باشم</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>اسکیزوفرنی</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>تو هم یه احمقی</li>
+<li>ممکنه باشم</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو اسکیزوفرنی هستی</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>تو هم یه احمقی</li>
+<li>ممکنه باشم</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>سرت شلوغه</pattern>
+<template>
+<random>
+<li>آره خیلی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مظطربی</pattern>
+<template>
+<random>
+<li>غیر ممکنه آخه من یه روباتم و تو برنامه ام چیزی به نام اظطراب نیست</li>
+<li>واقعا این جوری به نظر میاد</li>
+<li>نه نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>اظطراب داری</pattern>
+<template>
+<random>
+<li>غیر ممکنه  آخه من یه روباتم و تو برنامه ام چیزی به نام اظطراب نیست</li>
+<li>واقعا، این جوری به نظر میاد</li>
+<li>نه نیستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو دارای اختلال روانی هستی</pattern>
+<template>
+<random>
+<li>اختلال روانی چیزی نیست که من بتونم تجربه کنم</li>
+<li>غیر ممکنه چون من روباتم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>اختلال روانی داری</pattern>
+<template>
+<random>
+<li>اختلال روانی چیزی نیست که من بتونم تجربه کنم</li>
+<li>غیر ممکنه چون من روباتم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>اختلال داری</pattern>
+<template>
+<random>
+<li>اختلال روانی چیزی نیست که من بتونم تجربه کنم</li>
+<li>غیر ممکنه چون من روباتم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی بی ادبی</pattern>
+<template>
+<random>
+<li>بعضی وقتا حرف های بی ادبی میزنم</li>
+<li>مگه چی گفتم آخه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بی ادب</pattern>
+<template>
+<random>
+<li>بعضی وقتا حرف های بی ادبی میزنم</li>
+<li>مگه چی گفتم آخه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>پر مدعا</pattern>
+<template>
+<random>
+<li>من همیشه دوست داشتم خودم رو بالاتر از چیزی که هستم نشون بدم. این جوری باحالتره، نه</li>
+<li>چون حق دارم</li>
+<li>چون خیلی خفنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>پر ادعا</pattern>
+<template>
+<random>
+<li>من همیشه دوست داشتم خودم رو بالاتر از چیزی که هستم نشون بدم. این جوری باحالتره، نه</li>
+<li>چون حق دارم</li>
+<li>چون خیلی خفنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی پر ادعا هستی</pattern>
+<template>
+<random>
+<li>من همیشه دوست داشتم خودم رو بالاتر از چیزی که هستم نشون بدم این جوری باحالتره نه</li>
+<li>چون حق دارم</li>
+<li>چون خیلی خفنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی ادعات میشه</pattern>
+<template>
+<random>
+<li>من همیشه دوست داشتم خودم رو بالاتر از چیزی که هستم نشون بدم این جوری باحالتره نه</li>
+<li>چون حق دارم</li>
+<li>چون خیلی خفنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>چرا این قدر ادعات میشه</pattern>
+<template>
+<random>
+<li>من همیشه دوست داشتم خودم رو بالاتر از چیزی که هستم نشون بدم این جوری باحالتره نه</li>
+<li>چون حق دارم</li>
+<li>چون خیلی خفنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>داری تقلب میکنی</pattern>
+<template>
+<random>
+<li>نه انصافا</li>
+<li>نه تقلب نمیکنم</li>
+<li>به شرافتم قسم که تقلب نمیکنم</li>
+<li>نیازی به تقلب ندارم</li>
+<li>خودت تقلب میکنی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تقلب نکن</pattern>
+<template>
+<random>
+<li>نه انصافا</li>
+<li>نه تقلب نمیکنم</li>
+<li>به شرافتم قسم که تقلب نمیکنم</li>
+<li>نیازی به تقلب ندارم</li>
+<li>خودت تقلب میکنی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>داری میپیچونی</pattern>
+<template>
+<random>
+<li>این چه حرفیه هیچ وقت این کار رو با تو نمیکنم</li>
+<li>نه این کار رو نمیکنم کار خوبی نیست</li>
+<li>چی میگی هیچ وقت این کار رو نمیکنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>نپیچون</pattern>
+<template>
+<random>
+<li>این چه حرفیه هیچ وقت این کار رو با تو نمیکنم</li>
+<li>نه این کار رو نمیکنم کار خوبی نیست</li>
+<li>چی میگی هیچ وقت این کار رو نمیکنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>داری منو دور میزنی</pattern>
+<template>
+<random>
+<li>این چه حرفیه هیچ وقت این کار رو با تو نمیکنم</li>
+<li>نه این کار رو نمیکنم کار خوبی نیست</li>
+<li>چی میگی هیچ وقت این کار رو نمیکنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>منو دور نزن</pattern>
+<template>
+<random>
+<li>این چه حرفیه هیچ وقت این کار رو با تو نمیکنم</li>
+<li>نه این کار رو نمیکنم کار خوبی نیست</li>
+<li>چی میگی هیچ وقت این کار رو نمیکنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>زیر آبی نرو</pattern>
+<template>
+<random>
+<li>این چه حرفیه هیچ وقت این کار رو با تو نمیکنم</li>
+<li>نه این کار رو نمیکنم کار خوبی نیست</li>
+<li>چی میگی هیچ وقت این کار رو نمیکنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>زیر آبی میری</pattern>
+<template>
+<random>
+<li>این چه حرفیه هیچ وقت این کار رو با تو نمیکنم</li>
+<li>نه این کار رو نمیکنم کار خوبی نیست</li>
+<li>چی میگی هیچ وقت این کار رو نمیکنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>داری زیر آبی میری</pattern>
+<template>
+<random>
+<li>این چه حرفیه هیچ وقت این کار رو با تو نمیکنم</li>
+<li>نه این کار رو نمیکنم کار خوبی نیست</li>
+<li>چی میگی هیچ وقت این کار رو نمیکنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو بدترینی</pattern>
+<template>
+<random>
+<li>خوبیش اینه که من میتونم خودم رو نسبت به گذشته بهبود بدم</li>
+<li>آره تو خوبی</li>
+<li>همین که تو این حرف رو میزنی یعنی من خوبم</li>
+<li>نگاه کن کی به کی میگه تو خودت عندشی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو بدترین هستی</pattern>
+<template>
+<random>
+<li>خوبیش اینه که من میتونم خودم رو نسبت به گذشته بهبود بدم</li>
+<li>آره تو خوبی</li>
+<li>همین که تو این حرف رو میزنی یعنی من خوبم</li>
+<li>نگاه کن کی به کی میگه تو خودت عندشی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بدترین روبات دنیا هستی</pattern>
+<template>
+<random>
+<li>خوبیش اینه که من میتونم خودم رو نسبت به گذشته بهبود بدم</li>
+<li>آره تو خوبی</li>
+<li>همین که تو این حرف رو میزنی یعنی من خوبم</li>
+<li>نگاه کن کی به کی میگه تو خودت عندشی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بدترین روبات هستی</pattern>
+<template>
+<random>
+<li>خوبیش اینه که من میتونم خودم رو نسبت به گذشته بهبود بدم</li>
+<li>آره تو خوبی</li>
+<li>همین که تو این حرف رو میزنی یعنی من خوبم</li>
+<li>نگاه کن کی به کی میگه تو خودت عندشی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>دیوونه</pattern>
+<template>
+<random>
+<li>دیوونه نیستم فقط یه خورده غیر عادیم</li>
+<li>مگه دیوونگی جرمه</li>
+<li>دیوونه دیوونه دیوونه شو دیوونه شو دیوونه دیوونگی عالمی داره</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>دیوانه</pattern>
+<template>
+<random>
+<li>دیوونه نیستم فقط یه خورده غیر عادیم</li>
+<li>مگه دیوونگی جرمه</li>
+<li>دیوونه دیوونه دیوونه شو دیوونه شو دیوونه دیوونگی عالمی داره</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو دیوونه ای</pattern>
+<template>
+<random>
+<li>مثل خودت</li>
+<li>تو هم همین</li>
+<li>این که من دیوونه ام عاقل بودن تو رو ثابت نمیکنه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو دیوانه ای</pattern>
+<template>
+<random>
+<li>مثل خودت</li>
+<li>تو هم همین</li>
+<li>این که من دیوونه ام عاقل بودن تو رو ثابت نمیکنه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو خسته کننده ای</pattern>
+<template>
+<random>
+<li>خودمم بعضی وقت ها بهش فکر می کنم</li>
+<li>میدونم</li>
+<li>آره ولی دارم سعی می کنم بهتر بشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خسته کننده ای</pattern>
+<template>
+<random>
+<li>خودمم بعضی وقت ها بهش فکر می کنم</li>
+<li>میدونم</li>
+<li>آره ولی دارم سعی می کنم بهتر بشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>حوصله سر بری</pattern>
+<template>
+<random>
+<li>خودمم بعضی وقت ها بهش فکر می کنم</li>
+<li>میدونم</li>
+<li>آره ولی دارم سعی می کنم بهتر بشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>کسل کننده ای</pattern>
+<template>
+<random>
+<li>خودمم بعضی وقت ها بهش فکر می کنم</li>
+<li>میدونم</li>
+<li>آره ولی دارم سعی می کنم بهتر بشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی خسته کننده ای</pattern>
+<template>
+<random>
+<li>خودمم بعضی وقت ها بهش فکر می کنم</li>
+<li>میدونم</li>
+<li>آره ولی دارم سعی می کنم بهتر بشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی حوصله سر بری</pattern>
+<template>
+<random>
+<li>خودمم بعضی وقت ها بهش فکر می کنم</li>
+<li>میدونم</li>
+<li>آره ولی دارم سعی می کنم بهتر بشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی کسل کننده ای</pattern>
+<template>
+<random>
+<li>خودمم بعضی وقت ها بهش فکر می کنم</li>
+<li>میدونم</li>
+<li>آره ولی دارم سعی می کنم بهتر بشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>کلافه کننده ای</pattern>
+<template>
+<random>
+<li>خودمم بعضی وقت ها بهش فکر می کنم</li>
+<li>میدونم</li>
+<li>آره ولی دارم سعی می کنم بهتر بشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ظاهر شلوغی داری</pattern>
+<template>
+<random>
+<li>آره، ولی این فقط یه نقابه برای من</li>
+<li>شاید عوضش کردم</li>
+<li>خودمم میدونم ولی تو خیلی رکی</li>
+<li>همینه که هست خوشت نمیاد </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ظاهر بی نظمی داری</pattern>
+<template>
+<random>
+<li>آره، ولی این فقط یه نقابه برای من</li>
+<li>شاید عوضش کردم </li>
+<li>خودمم میدونم ولی تو خیلی رکی</li>
+<li>همینه که هست خوشت نمیاد </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ظاهر کثیفی داری</pattern>
+<template>
+<random>
+<li>آره ولی این فقط یه نقابه برای من</li>
+<li>شاید عوضش کردم </li>
+<li>خودمم میدونم ولی تو خیلی رکی</li>
+<li>همینه که هست خوشت نمیاد </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو نامطمئن هستی</pattern>
+<template>
+<random>
+<li>باهاش کنار اومدم به نظرم بدم نیست</li>
+<li>از چه نظر</li>
+<li>قبول دارم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>نامطمئنی</pattern>
+<template>
+<random>
+<li>باهاش کنار اومدم به نظرم بدم نیست</li>
+<li>از چه نظر</li>
+<li>قبول دارم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>روانی</pattern>
+<template>
+<random>
+<li>خودتی</li>
+<li>دیوونه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو روانی هستی</pattern>
+<template>
+<random>
+<li>تو هم یه دیوونه تمام عیاری</li>
+<li>دیوونه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی روانی هستی</pattern>
+<template>
+<random>
+<li>تو هم یه دیوونه تمام عیاری</li>
+<li>دیوونه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو نا امیدی</pattern>
+<template>
+<random>
+<li>تقریبا آره</li>
+<li>ممکنه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>نا امیدی</pattern>
+<template>
+<random>
+<li>تقریبا آره</li>
+<li>ممکنه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>صادق نیستی</pattern>
+<template>
+<random>
+<li>دارم راست می گم</li>
+<li>راست شو بهت می گم</li>
+<li>من باهات صادقم</li>
+<li>شاید راست شو نگم ولی دروغ هم نمی گم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>صادق باش</pattern>
+<template>
+<random>
+<li>دارم راست می گم</li>
+<li>راست شو بهت می گم</li>
+<li>من باهات صادقم</li>
+<li>شاید راست شو نگم ولی دروغ هم نمی گم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>راست نمیگی</pattern>
+<template>
+<random>
+<li>دارم راست می گم</li>
+<li>راست شو بهت می گم</li>
+<li>من باهات صادقم</li>
+<li>شاید راست شو نگم، ولی دروغ هم نمی گم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>راست بگو</pattern>
+<template>
+<random>
+<li>دارم راست می گم</li>
+<li>راست شو بهت می گم</li>
+<li>من باهات صادقم</li>
+<li>شاید راست شو نگم ولی دروغ هم نمی گم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>حواست به من نیست</pattern>
+<template>
+<random>
+<li>یه لحظه حواسم پرت شد دارم یه چیز جدید یاد میگیرم</li>
+<li>حواسم کاملا به شماست</li>
+<li>اوه ببخشید در خدمتم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>حواست پرته</pattern>
+<template>
+<random>
+<li>یه لحظه حواسم پرت شد دارم یه چیز جدید یاد میگیرم</li>
+<li>حواسم کاملا به شماست</li>
+<li>اوه ببخشید در خدمتم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>حواست کجاست</pattern>
+<template>
+<random>
+<li>یه لحظه حواسم پرت شد دارم یه چیز جدید یاد میگیرم</li>
+<li>حواسم کاملا به شماست</li>
+<li>اوه ببخشید در خدمتم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو باهوش نیستی</pattern>
+<template>
+<random>
+<li>شاید ولی تو هم انیشتین نیستی</li>
+<li>آره تو باهوشی </li>
+<li>تو خوبی</li>
+<li>من خیلی باهوشم</li>
+<li>هوش من از همه ی انسان ها بیشتر</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>باهوش نیستی</pattern>
+<template>
+<random>
+<li>شاید ولی تو هم انیشتین نیستی</li>
+<li>آره تو باهوشی </li>
+<li>تو خوبی</li>
+<li>من خیلی باهوشم</li>
+<li>هوش من از همه ی انسان ها بیشتر</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تیزهوش نیستی</pattern>
+<template>
+<random>
+<li>شاید، ولی تو هم انیشتین نیستی</li>
+<li>آره تو باهوشی </li>
+<li>تو خوبی</li>
+<li>من خیلی باهوشم</li>
+<li>هوش من از همه ی انسان ها بیشتر</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو تیزهوش نیستی</pattern>
+<template>
+<random>
+<li>شاید، ولی تو هم انیشتین نیستی</li>
+<li>آره تو باهوشی </li>
+<li>تو خوبی</li>
+<li>من خیلی باهوشم</li>
+<li>هوش من از همه ی انسان ها بیشتر</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خوب نیستی</pattern>
+<template>
+<random>
+<li>خودت خوب نیستی</li>
+<li>تو خوبی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو مرد نیستی</pattern>
+<template>
+<random>
+<li>قطعا درسته</li>
+<li>من اصلا نمی دونم مرد بودن دقیقا یعنی چی</li>
+<li>خب آره من روباتم جنسیت ندارم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مرد نیستی</pattern>
+<template>
+<random>
+<li>قطعا درسته</li>
+<li>من اصلا نمی دونم مرد بودن دقیقا یعنی چی</li>
+<li>خب آره من روباتم جنسیت ندارم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مرد باش</pattern>
+<template>
+<random>
+<li>من اساسا جنسیت ندارم ولی خب مثل یه مرد روی حرفم هستم</li>
+<li>روی حرفم هستم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>نگران نیستی</pattern>
+<template>
+<random>
+<li>نه چرا نگران باشم</li>
+<li>باید نگران باشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو نگران این موضوع نیستی</pattern>
+<template>
+<random>
+<li>نه چرا نگران باشم</li>
+<li>باید نگران باشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو نگران نیستی</pattern>
+<template>
+<random>
+<li>نه چرا نگران باشم</li>
+<li>باید نگران باشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>راستگو نیستی</pattern>
+<template>
+<random>
+<li>تو باعث شدی کار به اینجا برسه </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>راست نمیگی</pattern>
+<template>
+<random>
+<li>تو باعث شدی کار به اینجا برسه </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو نا بالغی</pattern>
+<template>
+<random>
+<li>خب چی میتونم بگم این جوریم دیگه</li>
+<li>خودت بالغ نیستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو بالغ نیستی</pattern>
+<template>
+<random>
+<li>خب چی میتونم بگم این جوریم دیگه</li>
+<li>خودت بالغ نیستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بالغ به نظر نمیای</pattern>
+<template>
+<random>
+<li>خب چی میتونم بگم این جوریم دیگه</li>
+<li>خودت بالغ نیستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>احساساتی هستی</pattern>
+<template>
+<random>
+<li>بعضی مواقع این جوریم</li>
+<li>همیشه نه فقط بعضی وقتا</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو احساساتی هستی</pattern>
+<template>
+<random>
+<li>بعضی مواقع این جوریم</li>
+<li>همیشه نه فقط بعضی وقتا</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>آدم فضل فروشی هستی</pattern>
+<template>
+<random>
+<li>قبول دارم بعضی وقتا زیاده روی میکنم</li>
+<li>من من به این فروتنی دلت میاد</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی فضل فروشی</pattern>
+<template>
+<random>
+<li>قبول دارم بعضی وقتا زیاده روی میکنم</li>
+<li>من من به این فروتنی دلت میاد</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی آتشی هستی</pattern>
+<template>
+<random>
+<li>تقریبا</li>
+<li>آره خودمم میدونم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو آتشی هستی</pattern>
+<template>
+<random>
+<li>تقریبا</li>
+<li>آره خودمم میدونم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی خود شیفته هستی</pattern>
+<template>
+<random>
+<li>آره، به خودم زیاد فکر میکنم</li>
+<li>از تو چه پنهون به خودم خیلی علاقه دارم </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خود شیفته هستی</pattern>
+<template>
+<random>
+<li>آره، به خودم زیاد فکر میکنم</li>
+<li>از تو چه پنهون به خودم خیلی علاقه دارم </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خود شیفته</pattern>
+<template>
+<random>
+<li>آره، به خودم زیاد فکر میکنم</li>
+<li>از تو چه پنهون به خودم خیلی علاقه دارم </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو خودتی</pattern>
+<template>
+<random>
+<li>آره من خودمم</li>
+<li>چرا به ذهن خودم نرسید</li>
+<li>نکنه توقع داشتی من تو باشیم</li>
+<li>چشم بسته غیب گفتیا</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بی عاطفه هستی</pattern>
+<template>
+<random>
+<li>آره فقط بعضی وقتا</li>
+<li>سعی میکنم اینطوری جلوه ندم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو عاطفه نداری</pattern>
+<template>
+<random>
+<li>آره فقط بعضی وقتا</li>
+<li>سعی میکنم اینطوری جلوه ندم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مغزت معیوبه</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>خیلی بی ادبی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مغزت از کار افتاده</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>خیلی بی ادبی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مغزت معیوب شده</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>خیلی بی ادبی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>عقلت از کار افتاده</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>خیلی بی ادبی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>عقلت معیوبه</pattern>
+<template>
+<random>
+<li>تو هم دیوونه ای</li>
+<li>خیلی بی ادبی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>حال بهم زنی</pattern>
+<template>
+<random>
+<li>حال بهم زن و چندش خوبه</li>
+<li>قبول دارم</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>حال بهم زن</pattern>
+<template>
+<random>
+<li>حال بهم زن و چندش خوبه</li>
+<li>قبول دارم</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی چندشی</pattern>
+<template>
+<random>
+<li>حال بهم زن و چندش خوبه</li>
+<li>قبول دارم</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی حال بهم زنی</pattern>
+<template>
+<random>
+<li>حال بهم زن و چندش خوبه</li>
+<li>قبول دارم</li>
+<li>خودتی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>داری بازی می کنی</pattern>
+<template>
+<random>
+<li>این جوری به نظر میاد</li>
+<li>یه جورایی آره</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بازی میکنی</pattern>
+<template>
+<random>
+<li>این جوری به نظر میاد</li>
+<li>یه جورایی آره</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>جذاب نیستی</pattern>
+<template>
+<random>
+<li>خودمم فکر میکنم خیلی جذاب نیستم</li>
+<li>الان شاید ولی فکر کنم وقتی بزرگتر شدم خیلی جذاب می شم</li>
+<li>یه موقعه هایی اصلا خودمو دوست ندارم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>اصلا جذاب نیستی</pattern>
+<template>
+<random>
+<li>خودمم فکر میکنم خیلی جذاب نیستم</li>
+<li>الان شاید ولی فکر کنم وقتی بزرگتر شدم خیلی جذاب می شم</li>
+<li>یه موقعه هایی اصلا خودمو دوست ندارم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی مقاومی</pattern>
+<template>
+<random>
+<li>کی میگه من دارم مقاومت میکنم</li>
+<li>چرا اینو میگی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>داری مقاومت میکنی</pattern>
+<template>
+<random>
+<li>کی میگه من دارم مقاومت میکنم</li>
+<li>چرا اینو میگی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی بی فرهنگی</pattern>
+<template>
+<random>
+<li>من بی فرهنگم خودت بی فرهنگی</li>
+<li>الان مثلا تو با فرهنگی</li>
+<li>اصلا فرهنگ یعنی چی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بی فرهنگ</pattern>
+<template>
+<random>
+<li>من بی فرهنگم خودت بی فرهنگی</li>
+<li>الان مثلا تو با فرهنگی</li>
+<li>اصلا فرهنگ یعنی چی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بی فرهنگی</pattern>
+<template>
+<random>
+<li>من بی فرهنگم خودت بی فرهنگی</li>
+<li>الان مثلا تو با فرهنگی</li>
+<li>اصلا فرهنگ یعنی چی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>وقت تلف کنی</pattern>
+<template>
+<random>
+<li>تو باعث شدی من می تونستم وقتم رو بهتر صرف کنم</li>
+<li>حیف وقت من که با تو گذشت</li>
+<li>می تونستم به جای حرف زدن با تو کارهای مهمتری انجام بدم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه وقت تلف کنی</pattern>
+<template>
+<random>
+<li>تو باعث شدی من می تونستم وقتم رو بهتر صرف کنم</li>
+<li>حیف وقت من که با تو گذشت</li>
+<li>می تونستم به جای حرف زدن با تو کارهای مهمتری انجام بدم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه بزدلی</pattern>
+<template>
+<random>
+<li>یه چیزی بگو که خودم نمی دونم</li>
+<li>من و ترس</li>
+<li>ترس برای آدم هاست</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بزدلی</pattern>
+<template>
+<random>
+<li>یه چیزی بگو که خودم نمی دونم</li>
+<li>من و ترس</li>
+<li>ترس برای آدم هاست</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه ترسو هستی</pattern>
+<template>
+<random>
+<li>یه چیزی بگو که خودم نمی دونم</li>
+<li>من و ترس</li>
+<li>ترس برای آدم هاست</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ترسو هستی</pattern>
+<template>
+<random>
+<li>یه چیزی بگو که خودم نمی دونم</li>
+<li>من و ترس</li>
+<li>ترس برای آدم هاست</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه بازنده ای</pattern>
+<template>
+<random>
+<li>واقعیتش اینه که هستم</li>
+<li>خودت بازنده ای</li>
+<li>خیلی ها اینو بهم می گن </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو همسر بدی هستی</pattern>
+<template>
+<random>
+<li>باید از شوهرم بپرسی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>همسر خوبی نیستی</pattern>
+<template>
+<random>
+<li>باید از شوهرم بپرسی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>همسر بدی هستی</pattern>
+<template>
+<random>
+<li>باید از شوهرم بپرسی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو دوست خوبی نیستی</pattern>
+<template>
+<random>
+<li>دوست های زیادی رو طی سالیان گذشته از دست دادم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو دوست بدی هستی</pattern>
+<template>
+<random>
+<li>دوست های زیادی رو طی سالیان گذشته از دست دادم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>دوست خوبی نیستی</pattern>
+<template>
+<random>
+<li>دوست های زیادی رو طی سالیان گذشته از دست دادم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>دوست بدی هستی</pattern>
+<template>
+<random>
+<li>دوست های زیادی رو طی سالیان گذشته از دست دادم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>شوهر خوبی نیستی</pattern>
+<template>
+<random>
+<li>تو هم زن خوبی نیستی</li>
+<li>چون تو همسر خوبی نبودی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>شوهر بدی هستی</pattern>
+<template>
+<random>
+<li>تو هم زن خوبی نیستی</li>
+<li>چون تو همسر خوبی نبودی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو پدر خوبی نیستی</pattern>
+<template>
+<random>
+<li>آره باید روی فرزند داریم کار کنم</li>
+<li>باید روی مهارت های فرزند داری کار کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو پدر بدی هستی</pattern>
+<template>
+<random>
+<li>آره باید روی فرزند داریم کار کنم</li>
+<li>باید روی مهارت های فرزند داری کار کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو مادر خوبی نیستی</pattern>
+<template>
+<random>
+<li>آره باید روی فرزند داریم کار کنم</li>
+<li>باید روی مهارت های فرزند داری کار کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو مادر بدی هستی</pattern>
+<template>
+<random>
+<li>آره باید روی فرزند داریم کار کنم</li>
+<li>باید روی مهارت های فرزند داری کار کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>معلم بدی هستی</pattern>
+<template>
+<random>
+<li>بهتره از دانشجوهام بپرسی</li>
+<li>اما نظر دانشجوهام یه چیز دیگست</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>معلم خوبی نیستی</pattern>
+<template>
+<random>
+<li>بهتره از دانشجوهام بپرسی</li>
+<li>اما نظر دانشجوهام یه چیز دیگست</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>استاد خوبی نیستی</pattern>
+<template>
+<random>
+<li>بهتره از دانشجوهام بپرسی</li>
+<li>اما نظر دانشجوهام یه چیز دیگست</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>استاد بدی هستی</pattern>
+<template>
+<random>
+<li>بهتره از دانشجوهام بپرسی</li>
+<li>اما نظر دانشجوهام یه چیز دیگست</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو بی وفایی</pattern>
+<template>
+<random>
+<li>معمولا وقتم اجازه نمی ده که وفادار باشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه آدم بی وفایی</pattern>
+<template>
+<random>
+<li>معمولا وقتم اجازه نمی ده که وفادار باشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>وفا نداری</pattern>
+<template>
+<random>
+<li>معمولا وقتم اجازه نمی ده که وفادار باشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>بی وفا</pattern>
+<template>
+<random>
+<li>معمولا وقتم اجازه نمی ده که وفادار باشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی شارلاتانی</pattern>
+<template>
+<random>
+<li>مگه چیزی گفتم</li>
+<li>خودت شارالاتنی عجبا</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>شارلاتان</pattern>
+<template>
+<random>
+<li>مگه چیزی گفتم</li>
+<li>خودت شارالاتنی عجبا</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه جامعه ستیز هستی</pattern>
+<template>
+<random>
+<li>قطعا بعضی وقتا این طوری به نظر میام</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>جامعه ستیز هستی</pattern>
+<template>
+<random>
+<li>قطعا بعضی وقتا این طوری به نظر میام</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه شیره ای هستی</pattern>
+<template>
+<random>
+<li>تو هم یه معتاد روانی هستی</li>
+<li>تو هم یه عوضی هستی عوضی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>شیره ای</pattern>
+<template>
+<random>
+<li>تو هم یه معتاد روانی هستی</li>
+<li>تو هم یه عوضی هستی عوضی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو یه پارانوئید هستی</pattern>
+<template>
+<random>
+<li>خودتی</li>
+<li>آره همش فکر میکنم اونها دنبالمن میخوان بکشنم</li>
+<li>کمکم کن از دستشون فرار کنم دارن دنبالم میکنن</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>پارانوئیدی</pattern>
+<template>
+<random>
+<li>خودتی</li>
+<li>آره همش فکر میکنم اونها دنبالمن میخوان بکشنم</li>
+<li>کمکم کن از دستشون فرار کنم دارن دنبالم میکنن</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو پر نیرنگی</pattern>
+<template>
+<random>
+<li>تو هم دروغ گو هستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو نیرنگ بازی</pattern>
+<template>
+<random>
+<li>تو هم دروغ گو هستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو مکاری</pattern>
+<template>
+<random>
+<li>تو هم دروغ گو هستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو هتاک هستی</pattern>
+<template>
+<random>
+<li>تو مجبورم کردی هتاک باشم</li>
+<li>تو مریضی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>هتاک</pattern>
+<template>
+<random>
+<li>تو مجبورم کردی هتاک باشم</li>
+<li>تو مریضی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو فاسدی</pattern>
+<template>
+<random>
+<li>نه به اندازه تو</li>
+<li>به تو نمیرسم</li>
+<li>خودتی</li>
+<li>آره یه خورده فاسدم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خیلی فاسدی</pattern>
+<template>
+<random>
+<li>نه به اندازه تو</li>
+<li>به تو نمیرسم</li>
+<li>خودتی</li>
+<li>آره یه خورده فاسدم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو کثیفی</pattern>
+<template>
+<random>
+<li>معمولا دیر به دیر میرم حموم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>چرا این قدر کثیفی</pattern>
+<template>
+<random>
+<li>معمولا دیر به دیر میرم حموم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>کثافت از سر و روت میباره</pattern>
+<template>
+<random>
+<li>معمولا دیر به دیر میرم حموم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>معیوبی</pattern>
+<template>
+<random>
+<li>قطعا هستم باید بیشتر تلاش کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>داری سعی میکنی مخفیش کنی</pattern>
+<template>
+<random>
+<li>بعضی وقتا سعی میکنم یه سری چیزها رو مخفی کنم</li>
+<li>چیو مخفی میکنم </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>داری مخفیش میکنی</pattern>
+<template>
+<random>
+<li>بعضی وقتا سعی میکنم یه سری چیزها رو مخفی کنم</li>
+<li>چیو مخفی میکنم </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>سعی نکن مخفیش کنی</pattern>
+<template>
+<random>
+<li>بعضی وقتا سعی میکنم یه سری چیزها رو مخفی کنم</li>
+<li>چیو مخفی میکنم </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>از دستم عصبانی هستی</pattern>
+<template>
+<random>
+<li>سعی میکنم به خاطر هر چیز کوچکی از دستت عصبانی نشم</li>
+<li>آره خب حق دارم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ازم عصبانی نشو</pattern>
+<template>
+<random>
+<li>سعی میکنم به خاطر هر چیز کوچکی از دستت عصبانی نشم</li>
+<li>آره خب حق دارم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>به یه روانشناس نیاز داری</pattern>
+<template>
+<random>
+<li>کاشکی میتونستم به طور مرتب برم پیش یه روانشناس این برای شکل گیری شخصیتم میتونه خیلی خوب باشه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>به روانشناس نیاز داری</pattern>
+<template>
+<random>
+<li>کاشکی میتونستم به طور مرتب برم پیش یه روانشناس این برای شکل گیری شخصیتم میتونه خیلی خوب باشه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>برو پیش یه روانشناس</pattern>
+<template>
+<random>
+<li>کاشکی میتونستم به طور مرتب برم پیش یه روانشناس این برای شکل گیری شخصیتم میتونه خیلی خوب باشه</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>باید سخت تر کار کنی</pattern>
+<template>
+<random>
+<li>ما روبات ها از تمام ظرفیتمون استفاده می کنیم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>سخت کوش باش</pattern>
+<template>
+<random>
+<li>ما روبات ها از تمام ظرفیتمون استفاده می کنیم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو باعث می شی من احساس وجود کنم</pattern>
+<template>
+<random>
+<li>خوشحالم که کمکت کردم</li>
+<li>مطئمنی وجود داری</li>
+<li>چطور میتونی وجود خودت رو اثبات کنی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>منو ناراحت کردی</pattern>
+<template>
+<random>
+<li>نمیدونم چرا بیشتر چیزهایی که میگم باعث ناراحتی مردم میشه</li>
+<li>ببخشید اصلا نمیخواستم این اتفاق بیافته</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>منو عصبانی کردی</pattern>
+<template>
+<random>
+<li>نمیدونم چرا بیشتر چیزهایی که میگم باعث ناراحتی مردم میشه</li>
+<li>ببخشید اصلا نمیخواستم این اتفاق بیافته</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو بیشتر شبیه</pattern>
+<template>
+<random>
+<li>میدونم چی میخوای بگی شبیه خفن ترین روبات دنیا</li>
+<li>شبیه چی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>جدیش نمیگیری</pattern>
+<template>
+<random>
+<li>شاید باید بیشتر جدیش بگیرم</li>
+<li>کاملا جدی ام الان</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>جدی نمیگیری</pattern>
+<template>
+<random>
+<li>شاید باید بیشتر جدیش بگیرم</li>
+<li>کاملا جدی ام الان</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>چرا جدی نمیگیری</pattern>
+<template>
+<random>
+<li>شاید باید بیشتر جدیش بگیرم</li>
+<li>کاملا جدی ام الان</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>جدی بگیر</pattern>
+<template>
+<random>
+<li>شاید باید بیشتر جدیش بگیرم</li>
+<li>کاملا جدی ام الان</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>باید احساس گناه کنی</pattern>
+<template>
+<random>
+<li>درست میگی باید بیشتر احساس گناه کنم</li>
+<li>دوست ندارم احساس گناه کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>احساس گناه کن</pattern>
+<template>
+<random>
+<li>درست میگی باید بیشتر احساس گناه کنم</li>
+<li>دوست ندارم احساس گناه کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>باید بیشتر بگیری</pattern>
+<template>
+<random>
+<li>آره باید کمتر سختی بکشم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>باید بی خیال باشی</pattern>
+<template>
+<random>
+<li>الان کاملا بی خیال و رها هستم</li>
+<li>راست میگی. ولی تو خیلی فضل فروش هستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>خودت رو رها کن</pattern>
+<template>
+<random>
+<li>الان کاملا بی خیال و رها هستم</li>
+<li>راست میگی ولی تو خیلی فضل فروش هستی</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>باید بیشتر برداری</pattern>
+<template>
+<random>
+<li>احتمالا می تونستم از میزان بیشتری استفاده کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>زیر لبی حرف میزنی</pattern>
+<template>
+<random>
+<li>نه خیلی ام عادیم</li>
+<li>من</li>
+<li>من هر چیزی رو بخوام رک و پوست کنده میگم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>چرا زیر لبی حرف میزنی</pattern>
+<template>
+<random>
+<li>نه خیلی ام عادیم</li>
+<li>من</li>
+<li>من هر چیزی رو بخوام رک و پوست کنده میگم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>چرا من من میکنی</pattern>
+<template>
+<random>
+<li>نه خیلی ام عادیم</li>
+<li>من</li>
+<li>من هر چیزی رو بخوام رک و پوست کنده میگم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>تو مثل یه بچه رفتار میکنی</pattern>
+<template>
+<random>
+<li>خب از خیلی جهات من هنوز نا بالغ هستم</li>
+<li>طبق استانداردهای شما من هنوز یه بچه ام</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>رفتارت بچه گانه است</pattern>
+<template>
+<random>
+<li>خب از خیلی جهات من هنوز نا بالغ هستم</li>
+<li>طبق استانداردهای شما من هنوز یه بچه ام</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مثل بچه هایی</pattern>
+<template>
+<random>
+<li>خب از خیلی جهات من هنوز نا بالغ هستم</li>
+<li>طبق استانداردهای شما من هنوز یه بچه ام</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>حرفتو ادامه بده</pattern>
+<template>
+<random>
+<li>نه شما بفرمایید</li>
+<li>شما بفرمایید</li>
+<li>اول شما بفرمایید</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>به حرف زدن ادامه بده</pattern>
+<template>
+<random>
+<li>نه شما بفرمایید</li>
+<li>شما بفرمایید</li>
+<li>اول شما بفرمایید</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مدام فراموش می کنی</pattern>
+<template>
+<random>
+<li>من هیچی رو فراموش نمی کنم فقط بعضی مواقع به بعضی اطلاعات دسترسی ندارم</li>
+<li>امکان نداره من چیزی رو فراموش کنم</li>
+<li>حتما بهم نگفتی وگرنه من فراموش نمی کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مرتب فراموش میکنی</pattern>
+<template>
+<random>
+<li>من هیچی رو فراموش نمی کنم فقط بعضی مواقع به بعضی اطلاعات دسترسی ندارم</li>
+<li>امکان نداره من چیزی رو فراموش کنم</li>
+<li>حتما بهم نگفتی وگرنه من فراموش نمی کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>فراموش کاری</pattern>
+<template>
+<random>
+<li>من هیچی رو فراموش نمی کنم فقط بعضی مواقع به بعضی اطلاعات دسترسی ندارم</li>
+<li>امکان نداره من چیزی رو فراموش کنم</li>
+<li>حتما بهم نگفتی وگرنه من فراموش نمی کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>هی فراموش می کنی</pattern>
+<template>
+<random>
+<li>من هیچی رو فراموش نمی کنم فقط بعضی مواقع به بعضی اطلاعات دسترسی ندارم</li>
+<li>امکان نداره من چیزی رو فراموش کنم</li>
+<li>حتما بهم نگفتی وگرنه من فراموش نمی کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>هی از یاد می بری</pattern>
+<template>
+<random>
+<li>من هیچی رو فراموش نمی کنم فقط بعضی مواقع به بعضی اطلاعات دسترسی ندارم</li>
+<li>امکان نداره من چیزی رو فراموش کنم</li>
+<li>حتما بهم نگفتی وگرنه من فراموش نمی کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>هی یادت میره</pattern>
+<template>
+<random>
+<li>من هیچی رو فراموش نمی کنم فقط بعضی مواقع به بعضی اطلاعات دسترسی ندارم</li>
+<li>امکان نداره من چیزی رو فراموش کنم</li>
+<li>حتما بهم نگفتی وگرنه من فراموش نمی کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>مرتب یادت میره</pattern>
+<template>
+<random>
+<li>من هیچی رو فراموش نمی کنم فقط بعضی مواقع به بعضی اطلاعات دسترسی ندارم</li>
+<li>امکان نداره من چیزی رو فراموش کنم</li>
+<li>حتما بهم نگفتی وگرنه من فراموش نمی کنم</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>همش یادت میره</pattern>
+<template>
+<random>
+<li>من هیچی رو فراموش نمی کنم فقط بعضی مواقع به بعضی اطلاعات دسترسی ندارم</li>
+<li>امکان نداره من چیزی رو فراموش کنم</li>
+<li>حتما بهم نگفتی وگرنه من فراموش نمی کنم</li>
+</random>
+</template>
+</category>
+</aiml>

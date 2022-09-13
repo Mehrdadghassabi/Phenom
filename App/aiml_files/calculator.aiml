@@ -1,0 +1,92 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>ADD * $AND *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>+<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADD * $TO *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>+<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SUBTRACT * $AND *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>-<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SUBTRACT * $FROM *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>-<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DIVIDE * WITH *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>/<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DIVIDE * BY *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>/<star index="2"/>'</system>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>MULTIPLICATE * $AND *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>*<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MULTIPLICATE * $WITH *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>*<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MULTIPLICATE * $BY *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>*<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MULTIPLY * $WITH *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>*<star index="2"/>'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MULTIPLY * $BY *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>gnome-calculator --solve='<star index="1"/>*<star index="2"/>'</system>
+        </template>
+    </category>
+
+</aiml>

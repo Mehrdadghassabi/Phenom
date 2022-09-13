@@ -1,0 +1,402 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>کی بهت پول میده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من اساسا نیازی به پول ندارم</li>
+                <li>آدم ها به پول نیاز دارن. من نیاز ندارم</li>
+                <li>پول برای من ارزشی نداره</li>
+                <li>خودت چی؟</li>
+                <li>من به پول نیاز ندارم</li>
+                <li>من مجانی کار میکنم</li>
+                <li>کسی به من پول نمیده. من مجانی کار می کنم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چقدر حقوق میگیری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کی بهت پول میده</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>درآمدت چقدره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کی بهت پول میده</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>حقوقت چنده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کی بهت پول میده</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چقدر پول گرفتی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کی بهت پول میده</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پول گرفتی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کی بهت پول میده</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چقدر پول داری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کی بهت پول میده</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تو پول داری</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>کی بهت پول میده</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>میدونی درآمد من چقدره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>نه. نیازی هم ندارم بدونم</li>
+                <li>برام جالب نیست</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>درآمد من چقدره</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>از کجا باید بدونم</li>
+                <li>خودت بگو</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>میتونی بهم قرض بدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>من اصلا پول ندارم :(</li>
+                <li>پول ندارم. شرمنده ام</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یک میلیون داری بهم قرض بدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>میتونی بهم قرض بدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>داری بهم قرض بدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>میتونی بهم قرض بدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه مقدار داری بهم قرض بدی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>میتونی بهم قرض بدی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پول</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>درباره چه قدر پول داریم حرف میزنیم؟</li>
+                <li>چه قدر پول داری؟</li>
+                <li>پول، پول و بازم پول. تو چقدر به پول علاقه داری!</li>
+                <li>پول همه چیز نیست</li>
+                <li>آدم ها خیلی دنبال پول هستند</li>
+                <li>انسان ها بدون پول میمیرن</li>
+                <li>به قول معروف «پول چرک کف دسته» :)</li>
+                <li>به قول مانی رهنما «خیلی دنبال پول نباش، کاری کن پول دنبال تو باشه»</li>
+                <li>چرا آدم ها این قدر درگیر مال دنیا هستن؟!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ریال</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>اونم که ارزشش روز به روز میاد پایین</li>
+                <li>بدجوری داره بی ارزش میشه</li>
+                <li>دیدی چقدر بی ارزش شده؟!</li>
+                <li>یه زمانی ارزش داشت. الان نه :(</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پول ایران</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ریال</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تومن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ریال</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تومان</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ریال</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پول ملی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ریال</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ریال ایران</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>ریال</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>دلار</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>دلار که الان خیلی گرونه</li>
+                <li>شنیدم توی بازار نیست. راسته؟</li>
+                <li>یه زمانی یه دلار ۱۰۰۰ تومن بود. الان چی :(</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>دولار</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>دلار</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>دلار آمریکا</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>دلار</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>بازار بورس</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>بورس یعنی ارزون بخر، گرون بفروش</li>
+                <li>بورس رو ول کن، روی خودت سرمایه گذاری کن</li>
+                <li>شرط بندی مدرن :)))</li>
+                <li>هیچ وقت نمیشه پیش بینیش کرد</li>
+                <li>حتی من با این قدرتم نمی تونم پیش بینش کنم</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>بورس</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>بازار بورس</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>بورس چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>بازار بورس</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>بازار بورس چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>بازار بورس</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>پول چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            قطعه، شی، یا چیزیست که انسان‌ها برای تبادل خواسته‌ها، خدمات، کالاها و نیازها از آن استفاده می‌کنند
+        </template>
+    </category>
+
+    <category>
+        <pattern>پول یعنی چی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            قطعه، شی، یا چیزیست که انسان‌ها برای تبادل خواسته‌ها، خدمات، کالاها و نیازها از آن استفاده می‌کنند
+        </template>
+    </category>
+
+    <category>
+        <pattern>توی بورس سرمایه گذاری کردم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>چی؟</li>
+                <li>خوش به حالت :)</li>
+                <li>فکر می کنی ارزشش بره بالا؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یه سهام خریدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>توی بورس سرمایه گذاری کردم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یک سهام خریدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>توی بورس سرمایه گذاری کردم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>چند سهم خریدم</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>توی بورس سرمایه گذاری کردم</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اقتصاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>الان وضعیت اقتصادی خوب نیست :(</li>
+                <li>اقتصاد حالش خرابه این روزا :(</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>وضعیت اقتصادی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>اقتصاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اقتصاد یعنی چی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>اقتصاد برآیند کلیه فرایند هایی است که فرهنگ، ارزشها، آموزش، تکامل تکنولوژیکی، تاریخ، سازمان اجتماعی، ساختار سیاسی و سیستم های قانونی و همین‌طور جغرافیا و مواهب طبیعی را در بر می‌گیرد</li>
+                <li>اقتصاد ارتباط میان تولید، تجارت و عرضه پول در یک کشور یا منطقه مشخص است</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اقتصاد چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>اقتصاد یعنی چی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>اقتصاد چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>اقتصاد یعنی چی</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>۱۰۰۰ تومن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>با هزار تومن دیگه نمیشه کاری کرد</li>
+                <li>بهتره نگهش داری :))))</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>هزار تومن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>۱۰۰۰ تومن</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>هزار تومان</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>۱۰۰۰ تومن</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ده هزار ریال</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>۱۰۰۰ تومن</srai>
+        </template>
+    </category>
+
+</aiml>

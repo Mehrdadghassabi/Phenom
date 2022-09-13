@@ -1,0 +1,40 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>سیستم را خاموش کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>shutdown now</system>
+            سیستم الان خاموش میشود
+        </template>
+    </category>
+
+    <category>
+        <pattern>سیستم رو خاموش کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>shutdown now</system>
+            سیستم الان خاموش میشود
+        </template>
+    </category>
+
+    <category>
+        <pattern>سیستم را ری استارت کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>reboot</system>
+            سیستم الان ری استارت میشود
+        </template>
+    </category>
+
+    <category>
+        <pattern>سیستم رو ری استارت کن</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>reboot</system>
+            سیستم الان ری استارت میشود
+        </template>
+    </category>
+
+
+</aiml>

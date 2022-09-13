@@ -1,0 +1,21 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>ترجمه _</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <think><set name="text"><star/></set></think>
+            به چه زبانی
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>به چه زبانی</that>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 Translator.py '<get name="text"></get>' '<star/>'</system>
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,39 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>TURN OFF SYSTEM</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>shutdown now</system>
+            System will shutdown now
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHUTDOWN SYSTEM</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>shutdown now</system>
+            System will shutdown now
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESTART SYSTEM</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>reboot</system>
+            System will reboot now
+        </template>
+    </category>
+
+    <category>
+        <pattern>REBOOT SYSTEM</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>reboot</system>
+            System will reboot now
+        </template>
+    </category>
+
+</aiml>

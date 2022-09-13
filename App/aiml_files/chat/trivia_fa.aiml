@@ -1,0 +1,939 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>مقبره شهریار در کدام شهر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            تبریز
+        </template>
+    </category>
+
+    <category>
+        <pattern>سعدی شاعر چه قرنی است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            چهارم
+        </template>
+    </category>
+
+    <category>
+        <pattern>حافظ شاعر چه قرنی است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            هشتم
+        </template>
+    </category>
+
+    <category>
+        <pattern>جامی شاعر چه قرنی است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نهم
+        </template>
+    </category>
+
+    <category>
+        <pattern>منظور از روضه رضوان چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            بهشت
+        </template>
+    </category>
+
+    <category>
+        <pattern>کدام حیوان تصویر را خاکستری میبیند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            روباه
+        </template>
+    </category>
+
+    <category>
+        <pattern>کدام حیوان تصویر را خاکستری می بیند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            روباه
+        </template>
+    </category>
+
+    <category>
+        <pattern>انسان سالانه چند بار پلک میزند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۱۰ میلیون بار
+        </template>
+    </category>
+
+    <category>
+        <pattern>انسان سالانه چند بار پلک می زند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۱۰ میلیون بار
+        </template>
+    </category>
+
+    <category>
+        <pattern>دو حیوانی که هنگام خواب یک چشمشان باز است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دلفین و گرگ
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه زمانی طول میکشد تا نور خورشید به زمین برسد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            هشت دقیقه و ۱۸ ثانیه
+        </template>
+    </category>
+
+    <category>
+        <pattern>چند درصد استخوان انسان در پا قرار دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۲۵ درصد
+        </template>
+    </category>
+
+    <category>
+        <pattern>رشد کودک در چه فصل بیشتر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            بهار
+        </template>
+    </category>
+
+    <category>
+        <pattern>زمان بارداری فیل چه قدر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دو سال
+        </template>
+    </category>
+
+    <category>
+        <pattern>قلب میگو در کجا قرار دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            سرش
+        </template>
+    </category>
+
+    <category>
+        <pattern>ظروف پلاستیکی چند سال طول میکشد تا تجزیه شوند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۵۰ هزار سال
+        </template>
+    </category>
+
+    <category>
+        <pattern>چند سوره ی حروف مقطعه در قرآن وجود دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۲۹ سوره
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه آیه ای است که از هر دو طرف خوانده شود یکسان است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            کل فی فلک
+        </template>
+    </category>
+
+    <category>
+        <pattern>فرمانده سپاه پاسداران در دوران دفاع مقدس که بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            محسن رضائی
+        </template>
+    </category>
+
+    <category>
+        <pattern>فرمانده سپاه پاسداران در خرمشهر که بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            محمد جهان آرا
+        </template>
+    </category>
+
+    <category>
+        <pattern>معلم اول لقب کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ارسطو
+        </template>
+    </category>
+
+    <category>
+        <pattern>معلم دوم لقب کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ابونصر فارابی
+        </template>
+    </category>
+
+    <category>
+        <pattern>اولین شهید محراب بعد از انقلاب کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            آیت الله قاضی طباطبایی
+        </template>
+    </category>
+
+    <category>
+        <pattern>سازمان جاسوسی اسرائیل چه نام دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            موساد
+        </template>
+    </category>
+
+    <category>
+        <pattern>سازمان جاسوسی شوروی یا روسیه چه نام دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            کا.گ.ب
+        </template>
+    </category>
+
+    <category>
+        <pattern>سازمان جاسوسی شاه چه نام داشت</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ساواک
+        </template>
+    </category>
+
+    <category>
+        <pattern>رحلت امام خمینی در چه تاریخی بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۱۴ خرداد ۱۳۶۸
+        </template>
+    </category>
+
+    <category>
+        <pattern>شهر نمونه مقاومت در دوران دفاع مقدس کجاست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دزفول
+        </template>
+    </category>
+
+    <category>
+        <pattern>اولین نماز جمعه تهران چه کسی امامت آن را بر عهده گرفت</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            آیت الله طالقانی
+        </template>
+    </category>
+
+    <category>
+        <pattern>پایتخت مالت کجاست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            والتا
+        </template>
+    </category>
+
+    <category>
+        <pattern>دو نام قدیم شهر همدان چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            اکباتان و هگمتانه
+        </template>
+    </category>
+
+    <category>
+        <pattern>کدام کتاب به خواهر قرآن مشهور است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            صحیفه سجادیه
+        </template>
+    </category>
+
+    <category>
+        <pattern>کوتاه ترین آیه ی بی نقطه ی قرآن چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            طه
+        </template>
+    </category>
+
+    <category>
+        <pattern>رئیس جمهور آمریکا که بمب اتمی را به روی مردم شهر هیروشیما ریخت که بود </pattern>
+<template>
+<think><set name="language">persian</set></think>
+            هاری ترومن
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر طب اطفال نوین کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دکتر محمد قریب
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر علم جبر چه کسی است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خوارزمی
+        </template>
+    </category>
+
+    <category>
+        <pattern>مرقد شیخ مفید در چه شهری است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            سامرا
+        </template>
+    </category>
+
+    <category>
+        <pattern>کاشف میکروب سل کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            رابرت کخ آلمانی
+        </template>
+    </category>
+
+    <category>
+        <pattern>واحد اندازه گیری الماس چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            قیراط
+        </template>
+    </category>
+
+    <category>
+        <pattern>مخترع رادیو کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            مارکونی
+        </template>
+    </category>
+
+    <category>
+        <pattern>نخستین کسی که شعر فارسی سرود کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            حنظله بادغیسی
+        </template>
+    </category>
+
+    <category>
+        <pattern>پدر شعر نو لقب کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            علی اسفندیاری (نیما یوشیج)
+        </template>
+    </category>
+
+    <category>
+        <pattern>سازنده ی برج ایفل کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            مهندس گوستا و مهندس ایفل
+        </template>
+    </category>
+
+    <category>
+        <pattern>نخستین نصب صندوق پستی جهان در چه شهری بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            وین (پایتخت اتریش)
+        </template>
+    </category>
+
+    <category>
+        <pattern>کدام درخت نماد صلح است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            زیتون
+        </template>
+    </category>
+
+    <category>
+        <pattern>موثرترین اشعه برای از بین بردن باکتری ها چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            گاما
+        </template>
+    </category>
+
+    <category>
+        <pattern>بزرگترین کشور مسلمان جهان چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            اندونزی
+        </template>
+    </category>
+
+    <category>
+        <pattern>پرجمعیت ترین شهر جهان کدام شهر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            مکزیکوسیتی
+        </template>
+    </category>
+
+    <category>
+        <pattern>حضرت آدم و حوا چند ساعت در بهشت بودند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۷ ساعت
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام کلیددار بهشت چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            رضوان
+        </template>
+    </category>
+
+    <category>
+        <pattern>خداوند متعال دنیا را در چه روزی آفریده است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            یکشنبه
+        </template>
+    </category>
+
+    <category>
+        <pattern>کدام یک از کتب آسمانی را خداوند به دست خود نوشته اند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            تورات
+        </template>
+    </category>
+
+    <category>
+        <pattern>یک پوط چند کیلوگرم است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۱۶ کیلوگرم
+        </template>
+    </category>
+
+    <category>
+        <pattern>زادگاه میوه کیوی کدام کشور است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            چین
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام کوهی که کشتی نوح بر آن پهلو گرفت</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            جودی
+        </template>
+    </category>
+
+    <category>
+        <pattern>کوچکترین کشور جهان کدام است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            واتیکان
+        </template>
+    </category>
+
+    <category>
+        <pattern>بلندترین آیه ی قرآن چه آیه ای است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            بقره ۲۸۶ آیه
+        </template>
+    </category>
+
+    <category>
+        <pattern>سوره بقره چند آیه دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۲۸۶ آیه
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام طولانی ترین دیوار جهان چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دیوار چین
+        </template>
+    </category>
+
+    <category>
+        <pattern>تور بسکتبال در ارتفاع چند متری از سطح زمین قرار دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۳ متری
+        </template>
+    </category>
+
+    <category>
+        <pattern>بدن انسان شامل چند استخوان میباشد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۲۰۶ استخوان
+        </template>
+    </category>
+
+    <category>
+        <pattern>بدن انسان شامل چند استخوان می باشد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۲۰۶ استخوان
+        </template>
+    </category>
+
+    <category>
+        <pattern>سازمان جاسوسی آمریکا چه نام دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            سیا
+        </template>
+    </category>
+
+    <category>
+        <pattern>قلعه فلک الافلاک در کدام شهر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خرم آباد
+        </template>
+    </category>
+
+    <category>
+        <pattern>بزرگترین عددی که در قرآن آمده است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۱۰۰ هزار
+        </template>
+    </category>
+
+    <category>
+        <pattern>تنها زنی که در قرآن به صدیقه مشهور است کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            حضرت مریم(س)
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام چه روزی از روزهای هفته در قرآن آمده است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            جمعه
+        </template>
+    </category>
+
+    <category>
+        <pattern>واژه ریال از چه زبانی گرفته شده است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            اسپانیولی
+        </template>
+    </category>
+
+    <category>
+        <pattern>جزایر لانگرهاوس در کدام عضو دستگاه گوارشی است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لوزالمعده
+        </template>
+    </category>
+
+    <category>
+        <pattern>واحد پول کشور ژاپن چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ین
+        </template>
+    </category>
+
+    <category>
+        <pattern>پنج کشوری که واحد پولشان ریال است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ایران-عربستان-قطر-عمان-یمن
+        </template>
+    </category>
+
+    <category>
+        <pattern>پرآب ترین رودخانه جهان چه نام دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            آمازون
+        </template>
+    </category>
+
+    <category>
+        <pattern>طولانی ترین رودخانه جهان چه نام دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نیل
+        </template>
+    </category>
+
+    <category>
+        <pattern>آیت الله مطهری چه کتابی را فرزند قرآن معرفی کرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            نهج البلاغه
+        </template>
+    </category>
+
+    <category>
+        <pattern>در کدام جنگ سپاهیان معاویه به دستور وی قرآن ها را بر سر نیزه کردند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            جنگ صفین
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام ماهی از ماه های قمری که بهار قرآن است چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            رمضان
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام چه واحد پولی در قرآن آمده است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دینار و درهم
+        </template>
+    </category>
+
+    <category>
+        <pattern>امام سجاد در چه سنی به شهادت رسید</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۵۷ سالگی
+        </template>
+    </category>
+
+    <category>
+        <pattern>مسافت دو ماراتن چند کیلومتر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۴۲ کیلومتر
+        </template>
+    </category>
+
+    <category>
+        <pattern>یک مثقال چند گرم است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۵ گرم
+        </template>
+    </category>
+
+    <category>
+        <pattern>عمر اسفنج های دریایی چند سال است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۱۰۰۰ تا ۲۰۰۰ سال
+        </template>
+    </category>
+
+    <category>
+        <pattern>بزرگترین پرنده چه نام دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            کلاغ،قل،عقاب
+        </template>
+    </category>
+
+    <category>
+        <pattern>طولانی ترین عمر متعلق به کدام پرنده است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            کلاغ،قل،عقاب
+        </template>
+    </category>
+
+    <category>
+        <pattern>طولانی ترین عمر متعلق به کدام حیوان است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            لاک پشت
+        </template>
+    </category>
+
+    <category>
+        <pattern>لاک پشت چند سال عمر میکند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۳۵۰ سال
+        </template>
+    </category>
+
+    <category>
+        <pattern>لاک پشت چند سال عمر می کند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۳۵۰ سال
+        </template>
+    </category>
+
+    <category>
+        <pattern>ساخت اولین هرم مصر چند سال طول کشید</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۱۲۰۰ سال
+        </template>
+    </category>
+
+    <category>
+        <pattern>قله اورست چند متر ارتفاع دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۸۸۸۴ متر
+        </template>
+    </category>
+
+    <category>
+        <pattern>تنها موجودی که نمی تواند بپرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            فیل
+        </template>
+    </category>
+
+    <category>
+        <pattern>تنها موجودی که نمیتواند بپرد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            فیل
+        </template>
+    </category>
+
+    <category>
+        <pattern>ضربان قلب وال چند بار در دقیقه میزند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۹ بار
+        </template>
+    </category>
+
+    <category>
+        <pattern>حس چشایی پروانه در کجای بدنش قرار دارد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            پاها
+        </template>
+    </category>
+
+    <category>
+        <pattern>چشم انسان چند مگاپیکسل است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۱۳۵ مگاپیکسل
+        </template>
+    </category>
+
+    <category>
+        <pattern>حلزون تا چند سال می تواند بخوابد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۳ سال
+        </template>
+    </category>
+
+    <category>
+        <pattern>حلزون تا چند سال میتواند بخوابد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۳ سال
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه حیوانی نمی تواند زبانش را بیرون بیاورد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            کورکودیل
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه حیوانی با حنجره ی خود بیش از ۱۰۰ صدا تولید میکند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            گربه
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه حیوانی با حنجره ی خود بیش از ۱۰۰ صدا تولید می کند</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            گربه
+        </template>
+    </category>
+
+    <category>
+        <pattern>چه حیوانی تماماً دست چپ است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            خرس قطبی
+        </template>
+    </category>
+
+    <category>
+        <pattern>کدام حیوان چشم هایش از مغزش بزرگتر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            شترمرغ
+        </template>
+    </category>
+
+    <category>
+        <pattern>طول زمین بولینگ چند متر است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            ۳۸ متر
+        </template>
+    </category>
+
+    <category>
+        <pattern>کدام پیامبر بدون پدر و مادر به دنیا آمد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            حضرت آدم (ع)
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام مخترع بلندگو کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            رایس کلوک
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام مخترع تانک چه کسی است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            سوپنتن
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام مخترع تفنگ دوربین دار کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            فیسک
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام مخترع دوچرخه چه کسی است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            مک میلان
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام مخترع دینامیت کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            واتیکان
+        </template>
+    </category>
+
+    <category>
+        <pattern>نوبل</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            واتیکان
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام مخترع مسلسل کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            کاتلینگ
+        </template>
+    </category>
+
+    <category>
+        <pattern>نام مخترع موتور سیکلت کیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            دایملر
+        </template>
+    </category>
+
+    <category>
+        <pattern>واحد شمارش تفنگ چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            قبضه
+        </template>
+    </category>
+
+    <category>
+        <pattern>واحد شمارش سگ و پلنگ چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            قلاده
+        </template>
+    </category>
+
+    <category>
+        <pattern>واحد شمارش پنبه چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            عدل
+        </template>
+    </category>
+
+    <category>
+        <pattern>واحد شمارش سرعت و جهش وزش باد چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            بادنگاو
+        </template>
+    </category>
+
+    <category>
+        <pattern>اولین شخصی که تبر به طرف لشکر امام حسین پرتاب کرد چه کسی بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            عمر بن سعد
+        </template>
+    </category>
+
+    <category>
+        <pattern>بزرگترین شهید کربلا چه کسی بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            حبیب بن مظاهر
+        </template>
+    </category>
+
+    <category>
+        <pattern>کوچکترین شهید کربلا چه کسی بود</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            حضرت علی اصغر(ع)
+        </template>
+    </category>
+
+</aiml>

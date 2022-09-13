@@ -1,0 +1,58 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern>SEARCH IN GOOGLE _</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>bash -c "xdg-open http://www.google.com/search?q='<star/>'&amp;> /dev/null &amp;"</system></think>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEARCH IN GOOGLE</pattern>
+<template>
+<think><set name="language">english</set></think>
+            What do you want to search in google
+        </template>
+    </category>
+
+    <category>
+        <pattern>_</pattern>
+        <that>WHAT DO YOU WANT TO SEARCH IN GOOGLE</that>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>bash -c "xdg-open http://www.google.com/search?q='<star/>'&amp;> /dev/null &amp;"</system></think>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEARCH IN WIKIPEDIA _</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>bash -c "xdg-open http://en.wikipedia.org/wiki/'<star/>'&amp;> /dev/null &amp;"</system></think>
+            Yes sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEARCH IN WIKIPEDIA</pattern>
+<template>
+<think><set name="language">english</set></think>
+            What do you want to search in wikipedia
+        </template>
+    </category>
+
+    <category>
+        <pattern>_</pattern>
+        <that>WHAT DO YOU WANT TO SEARCH IN WIKIPEDIA</that>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>bash -c "xdg-open http://en.wikipedia.org/wiki/'<star/>'&amp;> /dev/null &amp;"</system></think>
+            Yes sir
+        </template>
+    </category>
+
+</aiml>

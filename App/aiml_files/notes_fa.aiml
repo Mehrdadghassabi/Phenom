@@ -1,0 +1,97 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>یادداشت اضافه کن</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            شماره یادداشتی را که می خواهید اضافه کنید وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <that>شماره یادداشتی را که می خواهید اضافه کنید وارد کنید</that>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <think><set name="index"><star/></set></think>
+            متن را وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <that>متن را وارد کنید</that>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <system>python3 notes.py 'insert' '<get name="index"></get>' '<star/>' 'fa'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>حذف یادداشت</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            شماره یادداشتی را که می خواهید حذف کنید وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <that>شماره یادداشتی را که می خواهید حذف کنید وارد کنید</that>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <system>python3 notes.py 'delete' '<star/>' 'fa'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>یادداشت نشون بده</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            شماره یادداشتی را که می خواهید ببینید وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>یادداشت نشون‌بده</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            شماره یادداشتی را که می خواهید ببینید وارد کنید
+        </template>
+    </category>
+
+    <category>
+        <pattern>یادداشت نشان بده</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            شماره یادداشتی را که می خواهید ببینید وارد کنید
+        </template>
+    </category>
+
+
+    <category>
+        <that>شماره یادداشتی را که می خواهید ببینید وارد کنید</that>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <system>python3 notes.py 'find' '<star/>' 'fa'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>همه یادداشت ها رو نشون بده</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <system>python3 notes.py 'findall' 'fa'</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>همه یادداشت ها را نشان بده</pattern>
+        <template>
+            <think><set name="language">persian</set></think>
+            <system>python3 notes.py 'findall' 'fa'</system>
+        </template>
+    </category>
+
+</aiml>

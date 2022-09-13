@@ -1,0 +1,107 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>SHOW NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "story"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW FEATURED NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "story"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW SPORT NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "sport"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW POLITICAL NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "politics"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW INTERNATIONAL NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "world"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW WORLD NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "world"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW MULTIMEDIA NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "multimedia"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW ECONOMIC NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "money"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW SOCIAL NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "social"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW TECHNOLOGY NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "tech"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW MUSIC NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "music"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW CINEMA NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "cinema"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW ECONOMIC NEWS</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>python3 news.py "money"</system>
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,32 @@
+<aiml version="2.0" encoding="UTF-8">
+
+
+    <category>
+        <pattern>CHANGE WALLPAPER</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 wallpaper.py</system>
+            Wallpaper changed, sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CHANGE WALLPAPER</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 wallpaper.py</system>
+            Wallpaper changed, sir
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHANGE WALLPAPER *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <system>python3 wallpaper.py</system>
+            Wallpaper changed, sir
+        </template>
+    </category>
+
+
+</aiml>

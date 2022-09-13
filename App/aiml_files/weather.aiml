@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- File: balance.aiml -->
+    <!--  -->
+    <!-- This AIML file is part of the Y-Bot knowledge base. -->
+    <!--  -->
+    <!-- Y-Bot is Copyright &copy; 2017 by Keith Sterling. -->
+    <!--
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+    the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+    and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    -->
+
+    <category>
+        <pattern>WEATHER IN *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+               WEATHER LOCATION <star /> WHEN NOW
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WEATHER LOCATION * WHEN *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SHOW OBSERVE
+                <extension path="extensions.weather.weather.WeatherExtension">
+                    OBSERVATION LOCATION <star index="1" /> WHEN <star index="2" />
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW OBSERVE DESCRIPTION * TEMPRATURE * WIND * PRESSURE * HUMIDITY *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            According to dark sky the weather is <star index="1" />,
+            humidity is <star index="5" />,
+            temperature is <star index="2" /> fahrenheit,
+            the wind speed is <star index="3" /> mph and
+            the air pressure is <star index="4" /> mb
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW OBSERVE ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, weather observastion not available at the moment
+        </template>
+    </category>
+
+    <category>
+        <pattern>WEATHER FORECAST LOCATION * DAY *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <srai>
+                SHOW FORECAST 
+                <extension path="extensions.weather.weather.WeatherExtension">
+                    FORECAST LOCATION <star index="1"/> DAY <star index="2"/>
+                </extension>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW FORECAST DESCRIPTION * TEMPRATURE * WIND * PRESSURE * HUMIDITY *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            According to dark sky the weather is <star index="1" />,
+            humidity is <star index="5" />,
+            temperature is <star index="2" /> fahrenheit,
+            the wind speed is <star index="3" /> mph and
+            the air pressure is <star index="4" /> mb
+        </template>
+    </category>
+
+    <category>
+        <pattern>SHOW FORECAST ERR</pattern>
+<template>
+<think><set name="language">english</set></think>
+            Sorry, weather observastion not available at the moment
+        </template>
+    </category>
+
+
+</aiml>

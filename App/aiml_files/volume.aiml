@@ -1,0 +1,70 @@
+<aiml version="2.0" encoding="UTF-8">
+
+	<category>
+        <pattern>INCREASE VOLUME *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>amixer -D pulse sset Master <denormalize><star/> plus</denormalize></system></think>
+             yes sir
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DECREASE VOLUME *</pattern>
+<template>
+<think><set name="language">english</set></think>
+<<<<<<< HEAD
+            <think><system>amixer -D pulse sset Master <denormalize><denormalize><star/> </denormalize> dash </denormalize></system></think>
+=======
+            <think><system>amixer -D pulse sset Master <star/>-</system></think>
+>>>>>>> ca8294f... fix some bugs
+             yes sir
+        </template>
+    </category>
+	
+	<category>
+        <pattern>$SET $VOLUME TO *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>amixer -D pulse sset Master <denormalize><star/> </denormalize></system></think>
+             yes sir
+        </template>
+    </category>
+    
+    <category>
+        <pattern>MUTE VOLUME</pattern>
+<template>
+<think><set name="language">english</set></think>
+             yes sir
+            <think><system>amixer -D pulse sset Master mute</system></think>
+        </template>
+    </category>
+
+	<category>
+        <pattern>MUTE VOLUME *</pattern>
+<template>
+<think><set name="language">english</set></think>
+             yes sir
+            <think><system>amixer -D pulse sset Master mute</system></think>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>UNMUTE VOLUME</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>amixer -D pulse sset Master unmute</system></think>
+             yes sir
+        </template>
+    </category>
+	
+    <category>
+        <pattern>UNMUTE VOLUME *</pattern>
+<template>
+<think><set name="language">english</set></think>
+            <think><system>amixer -D pulse sset Master unmute</system></think>
+             yes sir
+        </template>
+    </category>
+
+</aiml>

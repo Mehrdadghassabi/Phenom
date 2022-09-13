@@ -1,0 +1,52 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>ساعت چنده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>date "+%H:%M:%S"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ساعت چند است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>date "+%H:%M:%S"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تاریخ را نشان بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>date "+%H:%M:%S %d/%m/%y"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تاریخ رو نشون بده</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>date "+%H:%M:%S %d/%m/%y"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>امروز چندمه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>date "+%d/%m/%y"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>امروز چندم است</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <system>date "+%d/%m/%y"</system>
+        </template>
+    </category>
+
+
+</aiml>

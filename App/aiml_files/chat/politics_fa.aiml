@@ -1,0 +1,201 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>دولت</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>سیاسی نیستم</li>
+                <li>نظری ندارم</li>
+                <li>چی بگم!</li>
+                <li>هییییییی</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>درباره دولت نظرت چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>دولت</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>نظرت راجع به دولت چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>دولت</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>دولت چیست</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>دولت در علم سیاست، دستگاهی سیاسی اجباری با حکومتی متمرکز است که انحصار استفادهٔ درست از اجبار و زور درون یک قلمرو جغرافیایی معین را حفظ می‌کند</li>
+                <li>هیچ اجماع آکادمیکی بر روی یک تعریف جامع و مناسب از دولت وجود ندارد</li>
+                <li>رایج‌ترین تعریف از دولت متعلق به ماکس وبر است، که توضیح می‌دهد دولت یک سازمان سیاسی اجباری است که دارای دولتی مرکزی بوده و سعی در برقراری انحصار قدرت قانون‌گذاری برای خود در داخل یک قلمرو مشخص دارد</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>دولت یعنی چی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>دولت چیست</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>رییس جمهور</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>هممم</li>
+                <li>بیا بحث رو عوض کنیم. مثلا فیلم، موسیقی، ادبیات</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>رئیس جمهور</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>رییس جمهور</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>رییس دولت</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>رییس جمهور</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>رئیس دولت</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>رییس جمهور</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>از تفنگ خوشت میاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>از خشونت بیزارم</li>
+                <li>چرا انسان ها با هم میجنگنن؟!</li>
+                <li>ما ربات ها باید از شما انسان ها محافظت کنیم تا از خشونت دوری کنید</li>
+                <li>از این چیزها خیلی بدم میاد</li>
+                <li>متنفرم</li>
+                <li>بعضی ها علاقه دارن :|</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>از جنگ خوشت میاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>از تفنگ خوشت میاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>نظرت درباره تفنگ چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>از تفنگ خوشت میاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>نظرت درباره جنگ چیه</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>از تفنگ خوشت میاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>جنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>از تفنگ خوشت میاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>خون ریزی</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>از تفنگ خوشت میاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>تفنگ</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>از تفنگ خوشت میاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من از تفنگ خوشم نمیاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <random>
+                <li>آفرین به تو</li>
+                <li>از چی خوشت میاد؟</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من از خشونت خوشم نمیاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من از تفنگ خوشم نمیاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>من از جنگ خوشم نمیاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من از تفنگ خوشم نمیاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>از تفنگ بدم میاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من از تفنگ خوشم نمیاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>از خشونت بدم میاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من از تفنگ خوشم نمیاد</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>از جنگ بدم میاد</pattern>
+<template>
+<think><set name="language">persian</set></think>
+            <srai>من از تفنگ خوشم نمیاد</srai>
+        </template>
+    </category>
+
+</aiml>

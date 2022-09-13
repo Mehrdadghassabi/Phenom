@@ -1,0 +1,76 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- window manager -->
+    <!-- closing windows and tabs -->
+    
+    <category>
+        <pattern>CLOSE THIS $TAB #</pattern>
+<template>
+<think><set name="language">english</set></think>
+                yes sir
+                <think><system>xdotool key ctrl+w</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE THIS #</pattern>
+<template>
+<think><set name="language">english</set></think>
+                yes sir
+                <think><system>wmctrl -c :ACTIVE:</system></think>
+            </template>
+    </category>
+    <!-- closing windows and tabs -->
+
+
+
+    <!-- opening programs or new window or new tab -->
+
+    <category>
+        <pattern>OPEN NEW $TAB #</pattern>
+<template>
+<think><set name="language">english</set></think>
+                yes sir
+                <think><system>xdotool key ctrl+t</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN $TAB #</pattern>
+<template>
+<think><set name="language">english</set></think>
+                yes sir
+                <think><system>xdotool key ctrl+t</system></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>OPEN NEW WINDOW #</pattern>
+<template>
+<think><set name="language">english</set></think>
+                yes sir
+                <think><system>xdotool key ctrl+n</system></think>
+            </template>
+    </category>
+
+
+    <category>
+        <pattern>OPEN WINDOW #</pattern>
+<template>
+<think><set name="language">english</set></think>
+                yes sir
+                <think><system>xdotool key ctrl+n</system></think>
+            </template>
+    </category>
+
+
+    <category>
+        <pattern>OPEN A WINDOW #</pattern>
+<template>
+<think><set name="language">english</set></think>
+                yes sir
+                <think><system>xdotool key ctrl+n</system></think>
+            </template>
+    </category>
+
+
+</aiml>
