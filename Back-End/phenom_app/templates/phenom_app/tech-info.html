@@ -1,0 +1,102 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+
+
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="{% static 'phenom_app/tech-info/assets/img/favicon.ico' %}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Phenom</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+      <link rel="stylesheet" href="{% static 'phenom_app/tech-info/assets/css/style.css' %} ">
+
+    <!-- Bootstrap core CSS     -->
+    <link href="{% static 'phenom_app/tech-info/assets/css/bootstrap.min.css' %}" rel="stylesheet" />
+
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="{% static 'phenom_app/tech-info/assets/css/light-bootstrap-dashboard.css?v=1.4.0' %}" rel="stylesheet"/>
+
+
+    <style> 
+      @font-face {
+         font-family: myFirstFont;
+         src: url("{% static 'phenom_app/fonts/IRANSansWeb.woff' %}");
+      }
+      
+      * {
+         font-family: myFirstFont;
+      }
+  </style>
+  
+
+</head>
+<body style="background-color:#21aae1">
+
+
+<div class="container" style="background-color:#21aae1">  
+  <form id="contact" action="" method="post" dir="rtl">
+
+     
+    <fieldset>
+      <div style="margin-left: 10px; margin-right: 10px; font-size:30px;">
+
+        <h1 style="margin-bottom:60px; text-align: center;">
+          اطلاعات فنی نرم افزار
+        </h1>
+        <p tabindex="5" required style="font-size: 20px;"> به‌طور کلی پروژه‌ی فنوم به دو زیر بخش تقسیم می‌شود؛ نرم‌افزار دسکتاپ، و سایت فنوم. که سایت فنوم (همچون هر وب‌سایتی دیگر!) به دو زیر بخش فرانت‌اند و بک‌اند تقسیم می‌شود
+        <br>
+        در ادامه اشاره‌ای به تکنولوژی‌های استفاده شده در هر زیر بخش خواهیم کرد:
+        <br>
+        الف: نرم‌افزار دسکتاپ
+        <br>
+         فنوم یک دستیار هوشمند صوتی است که میتواند به کارهای روزمره شما با لینوکس سرعت ببخشد
+         <br>
+         و خیلی از کارهای تکراری و روزمره شما را به صورت خودکار انجام دهد تا در وقت شما صرفه جویی شود
+         <br>
+         تیم فنوم با استفاده از یادگیری ماشین و زبان پایتون این قابلیت را به دستیار صوتی شما داده است که مطالب جدید بیاموزد
+         <br>
+         بنابراین هر مقدار که جامعه فنوم بزرگتر شود این دستیار صوتی دارای عملکرد بهتری خواهد شد
+         <br>
+           <br>
+         ب: سایت فنوم
+         <br>
+         قسمت فرانت‌اند وب‌سایت فنوم را با استفاده از HTML , CSS , BootStrap و javascript طراحی کرده ایم که به دو بخش HomePage  و UserPanel  تقسیم میشود.
+
+         <br>
+         در صفحه HomePage سایت به معرفی خدمات و ویژگی های محصول پرداخته ایم همچنین اعضای گروه فنوم را به همراه وظایف آنها در گروه معرفی کرده ایم .
+         <br>
+          در صفحه ذکر شده امکان رفتن به صفحات دانلود نرم افزار، ثبت پیشنهادات و انتقادات، اسناد فنی و تحلیلی سایت و همچنین شبکه های اجتماعی محصول و اعضای تیم وجود دارد.
+          <br>
+          در قسمت UserPanel نیز کاربر امکان مشاهده اشتراک فعلی، اشتراک های خریداری شده، اشتراک های موجود و تغییر اطلاعات کاربری خود را دارد.
+          <br>
+          همچنین امکانی قرار داده شده که کاربر بتواند notification  های ارسالی از سمت سرور را مشاهده کند.
+
+          <br>
+           بک‌اند وب‌سایت فنوم با استفاده از زبان پایتون و فریم‌ورک Django نوشته شده است، و پایگاه‌ داده‌ی استفاده‌شده SQLite است.
+          <br>
+
+        </p>
+
+      </div>
+
+    </fieldset>
+    <div style="text-align:center;">
+            <h3>ER Diagram</h3>
+          <img src="{% static 'phenom_app/tech-info/assets/ERD.png' %}" width="720" height="600" >
+     </div>
+
+  </form>
+
+
+</div>
+
+
+</body>
+
+
+</html>
