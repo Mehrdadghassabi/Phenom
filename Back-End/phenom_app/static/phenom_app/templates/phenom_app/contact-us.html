@@ -1,0 +1,85 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+
+
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="{% static 'phenom_app/contact-us/assets/img/favicon.ico' %}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Phenom</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+      <link rel="stylesheet" href="{% static 'phenom_app/contact-us/assets/css/style.css' %}">
+
+    <!-- Bootstrap core CSS     -->
+    <link href="{% static 'phenom_app/contact-us/assets/css/bootstrap.min.css' %}" rel="stylesheet" />
+
+    <!--  Light Bootstrap Table core CSS    -->
+    {% comment %} <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/> {% endcomment %}
+
+    <style> 
+        @font-face {
+           font-family: myFirstFont;
+           src: url("{% static 'phenom_app/fonts/IRANSansWeb.woff' %}");
+        }
+        
+        * {
+           font-family: myFirstFont !important;
+        }
+    </style>
+    
+
+
+</head>
+<body style="background-color:#21aae1">
+
+
+    
+    
+    
+    <div class="container">  
+    <form id="contact" method="post" dir="rtl">
+    {% csrf_token %}
+        <img src="{% static 'phenom_app/contact-us/assets/phnm.jpg' %}" alt="Trulli" width="320" height="120">
+        <h4 style="font-size: 1.3em;">مشکل یا پیشنهاد خود را برای ما بنویسید</h4>
+        <fieldset>
+        <input placeholder="نام و نام خانوادگی" type="text" tabindex="1" required autofocus name="name" id="id_name" value="{{ form.name.value|default_if_none:'' }}">
+        <small style="color:Red;" dir="rtl">{{ form.name.errors }}</small>
+        </fieldset>
+        <fieldset>
+        <input placeholder="آدرس ایمیل" type="email" tabindex="2" required name="email" id="id_email" value="{{ form.email.value|default_if_none:''}}">
+        <small style="color:Red;" dir="rtl">{{ form.email.errors }}</small>
+        </fieldset>
+        <fieldset>
+        <input placeholder="شماره تلفن (اختیاری)" type="tel" tabindex="3" name="phone" id="id_phone" value="{{ form.phone.value|default_if_none:'' }}">
+        <small style="color:Red;" dir="rtl">{{ form.phone.errors }}</small>
+        </fieldset>
+        <fieldset>
+        <input placeholder="وبسایت (اختیاری)" type="url" tabindex="4" name="site" id="id_site" value="{{ form.site.value|default_if_none:'' }}">
+        <small style="color:Red;" dir="rtl">{{ form.site.errors }}</small>
+        </fieldset>
+        <fieldset>
+        <textarea placeholder="پیام خود را اینجا بنویسید" tabindex="5" required name="message" id="id_message" value="{{ form.message.value|default_if_none:'' }}"></textarea>
+        <small style="color:Red;" dir="rtl">{{ form.message.errors }}</small>
+        </fieldset>
+        <fieldset>
+        <button name="submit" type="submit" id="id_submit" data-submit="...Sending">ارسال</button>
+        </fieldset>
+        {% if messages %}
+        {% for message in messages %}
+            <div id="alertbox" class="my-3 alert alert-success"><strong>{{ message }}ا</strong></div>
+        {% endfor %}
+    {% endif %}
+    </form>
+     
+    </div>
+
+</body>
+
+
+</html>
