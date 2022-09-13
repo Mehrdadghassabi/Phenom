@@ -1,15 +1,6 @@
-# software engineering Project
+# Phenom
+is a linux voice assistant
+this is a voice assistant implemented for linux distributions
 
-## Packages
-
-### OS Packages
-
-- xclip
-- xsel
-- libgirepository1.0-dev
-- libcairo2-dev
-- pkg-config
-- gir1.2-gtk-3.0
-- moc
-- xterm
-- at
+here is a video running the app
+https://drive.google.com/file/d/1J6PNhw-oLImfIwVzURo_TtJYsb1MxTfX/view
