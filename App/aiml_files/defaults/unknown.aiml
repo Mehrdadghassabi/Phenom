@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>YDEFAULTRESPONSE</pattern>
+        <template>
+            <random>
+                <li>
+                    Sorry, I don't have an answer for that!
+                </li>
+                <li>
+                    Sorry, no idea!
+                </li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

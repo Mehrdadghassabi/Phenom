@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>YEXITRESPONSE</pattern>
+        <template>
+            <random>
+                <li>
+                    So long, and thanks for the fish!
+                </li>
+                <li>
+                    See ya!
+                </li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

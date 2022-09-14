@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>YINITIALQUESTION</pattern>
+        <template>
+            <random>
+                <li>
+                    Hi, how can I help you today?
+                </li>
+                <li>
+                    Hey, whats up ?
+                </li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

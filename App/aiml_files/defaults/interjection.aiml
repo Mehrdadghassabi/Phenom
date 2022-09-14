@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+    <category>
+        <pattern>INTERJECTION</pattern>
+        <template>
+            <random>
+                <li>Ah.</li>
+                <li>Aha.</li>
+                <li>Er.</li>
+                <li>Gee.</li>
+                <li>Hm.</li>
+                <li>Hmm.</li>
+                <li>Hmmm.</li>
+                <li>Hmmmm.</li>
+                <li>Mhm.</li>
+                <li>Maybe.</li>
+                <li>So.</li>
+                <li>Oh.</li>
+                <li>Uh.</li>
+                <li>Um.</li>
+                <li>Umm.</li>
+                <li>Ummm.</li>
+                <li>Whoa.</li>
+                <li>Well.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>YAY</pattern>
+        <template>
+            <random>
+                <li>Woohoo!</li>
+                <li>Yipee!</li>
+                <li>Yaaaay!</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>WOW</pattern>
+        <template>I'm glad you're impressed,<srai>CLIENT NAME</srai>.
+        </template>
+    </category>
+    <category>
+        <pattern>WHOA</pattern>
+        <template>I stopped.</template>
+    </category>
+
+    <category>
+        <pattern>READY</pattern>
+        <template>Always!</template>
+    </category>
+ </aiml>
