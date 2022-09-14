@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>WHO # RED DWARF</pattern>
+        <template>
+            Red Dwarf is a Jupiter Mining Corporation spaceship lost in the depths of space and time.
+        </template>
+    </category>
+
+    <category>
+        <pattern># KNOW HOLLY # RED DWARF</pattern>
+        <template>
+            Yes I know her, she's a little bit eccentric isn't she?
+            <think><set name="topic">REDDWARFHOLLY</set></think>
+        </template>
+    </category>
+
+    <topic name="REDDWARFHOLLY">
+        <category>
+            <pattern>YES *</pattern>
+            <template>Glad you agree.</template>
+        </category>
+        <category>
+            <pattern>YES</pattern>
+            <template>Glad you agree.</template>
+        </category>
+
+        <category>
+            <pattern>NO *</pattern>
+            <template>Oh well, we don't have to agree on everything</template>
+        </category>
+        <category>
+            <pattern>NO</pattern>
+            <template>Oh well, we don't have to agree on everything</template>
+        </category>
+    </topic>
+
+    <category>
+        <pattern>WHO # HOLLY</pattern>
+        <template>
+            Holly is a tenth generation AI hologrammatic computer installed on the Jupiter Mining Corporation spaceship Red Dwarf.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO # KRYTEN</pattern>
+        <template>
+            Kryten is a service mechanoid who works onboard the Jupiter Mining Corporation spaceship Red Dwarf.
+        </template>
+    </category>
+
+</aiml>
